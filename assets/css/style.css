@@ -5,6 +5,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    background-color: white;
+    background-image: url("../images/top-gradient.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -23,12 +28,21 @@ h1 h2 h3 h4 h5 h6 {
 /* :::::::::::::::::::::::::::::::::::::::::: Colors */
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
+button {
+    padding-left: 50px;
+    padding-right: 5px;
+}
+
+nav {
+    margin-top: 25px;
+}
+
 .active {
     font-weight: 500;
 }
 
 .navbar-brand {
-    padding-left: 20%;
+    margin-left: 15%;
 }
 
 .nav-link {
@@ -37,12 +51,18 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 #sign-up-modal-button {
-    margin-right: 20%;
+    margin-right: 15%;
     margin-left: 20px;
     background-color: #735db1;
     border: none;
     border-radius: 16px;
+
+}
+
+.top-section {
     
+    height: 80vh;
+    width: 100%;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
