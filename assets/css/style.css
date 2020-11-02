@@ -123,6 +123,7 @@ footer {
 .copyrights {
     background-color: #cecece;
     height: 50px;
+    margin-bottom: 0;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::: Hover.CSS */
@@ -176,6 +177,28 @@ footer {
     #top-banner-mockup {
         margin-top: 10%;
         margin-left: 8%;
+    }
+
+    .newsletter {
+        max-width: 100%;
+    }
+
+    .footer-item {
+        padding-right: 10% !important;
+        padding-left: 10% !important;
+    }
+
+    .footer-downloads{
+        margin-bottom: 20px;
+    }
+
+    #footer-p {
+        text-align: center;
+        width: 100%;
+    }
+
+    footer>div>div>a>.logo {
+        margin-left: 23%;
     }
 
 
