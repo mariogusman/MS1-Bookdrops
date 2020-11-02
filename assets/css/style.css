@@ -28,6 +28,9 @@ h1 h2 h3 h4 h5 h6 {
 /* :::::::::::::::::::::::::::::::::::::::::: Colors */
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
+nav {
+    background-color: transparent !important;
+}
 button {
     padding-left: 50px;
     padding-right: 5px;
@@ -66,3 +69,34 @@ nav {
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
+
+
+
+/* ------------------------------------------ @ Media Queries */
+@media only screen and (max-width: 1090px) {
+    nav {
+      background-color: white !important;
+      margin-top: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 5px !important;
+    }
+
+    #sign-up-modal-button {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        background-color: #735db1;
+        border: none;
+        border-radius: 16px;
+    }
+
+    .nav-link {
+        color: #1f1f1f !important;
+        border-bottom: 1px solid #cecece;
+        margin-bottom: 5px;
+        }
+
+
+  }
+  
