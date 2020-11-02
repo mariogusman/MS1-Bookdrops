@@ -22,9 +22,14 @@
   <body>
     <!-- Header -->
         <header>
+
             <!-- Imported and edited from Bootstrap 4 Documentation -->
-            <nav class="navbar navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <!-- Logo -->
                 <a class="navbar-brand" href="#"><h2 class="logo">book<span>drops</span></h2></a>
+
+                <!-- Actual Navbar with links -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
@@ -38,71 +43,73 @@
                         </li>
                     </ul>
                 </div>
-                    
-            <!-- Button to trigger modal Imported from Bootstrap Documentation-->
-            <button id="sign-up-modal-button" type="button" class="btn btn-primary btn-signup hvr-buzz-out" data-toggle="modal" data-target="#exampleModalCenter">
-                Sign Up
-            </button>
-            
-            <!-- Modal base body Imported from Bootstrap Documentation -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <!-- Modal Body -->
-                        <div class="modal-body">
-                            <form action="">
-                            <div class="input-group mb-3">
-                                <div class="input-group-signup">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
-                                </div>
-                                <input required type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-signup">
-                                  <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
-                                </div>
-                                <input required type="email" class="form-control" placeholder="name@email.com" aria-label="Email" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-signup">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-                                </div>
-                                <input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <div class="input-group-signup">
-                                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-                                </div>
-                                <input required type="password" class="form-control" placeholder="Repeat Password" aria-label="Password" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="remember">
-                                <label class="form-check-label" for="remember">
-                                <small>Remember me</small>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <p class="mr-auto"><small>Already have an account? <a href="#">Sign In </a></small></p>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Sign up</button>
-                        </div>
-                    </form>
-                    </div>
-                </div>
-            </div>
-            </div>
-        
-            <!-- Toggle button imported from Bootstrap 4 Documentation -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+
+                <!-- Button to trigger modal Imported from Bootstrap Documentation-->
+                <button id="sign-up-modal-button" type="button" class="btn btn-primary btn-signup hvr-buzz-out" data-toggle="modal" data-target="#exampleModalCenter">
+                    Sign Up
                 </button>
+
+                <!-- Toggler button imported from Bootstrap 4 Documentation -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            
+                <!-- Modal base body Imported from Bootstrap Documentation -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- Modal Body -->
+                            <div class="modal-body">
+                                <form action="">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-signup">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                                    </div>
+                                    <input required type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-signup">
+                                    <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+                                    </div>
+                                    <input required type="email" class="form-control" placeholder="name@email.com" aria-label="Email" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-signup">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                    </div>
+                                    <input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-signup">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+                                    </div>
+                                    <input required type="password" class="form-control" placeholder="Repeat Password" aria-label="Password" aria-describedby="basic-addon1">
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="remember">
+                                    <label class="form-check-label" for="remember">
+                                    <small>Remember me</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <p class="mr-auto"><small>Already have an account? <a href="#">Sign In </a></small></p>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Sign up</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>        
+            
             </nav>              
         </header>
 
@@ -113,12 +120,12 @@
             <div class="row">
               <div class="col my-auto">
                 <h1>Download this amazing app to start reading stuff!</h1>
-                <p>Who doesn't like reading some books?! <br> The smell of books is the best thing ever!<br>Click one of the buttons below to start enjoying!</p>
-                <a href="https://www.apple.com/ie/ios/app-store/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/ios-app-store-badge.png" alt="Download bookdrops on the App Store" height="40px"></a>
-                <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"><img src="./assets/images/google-play-badge.png" alt="Get bookdrops on Google Play" height="60px"></a>
+                <p id="top-banner-text">Who doesn't like reading some books?! <br> The smell of books is the best thing ever!<br>Click one of the buttons below to start enjoying!</p>
+                <a id="top-ios-badge" href="https://www.apple.com/ie/ios/app-store/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/ios-app-store-badge.png" alt="Download bookdrops on the App Store" height="40px"></a>
+                <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer"><img src="./assets/images/google-play-badge.png" alt="Get bookdrops on Google Play" height="40px"></a>
               </div>
               <div class="col my-auto">
-                <img src="./assets/images/bookdrops-mock-main-screen.png" alt="Dropbooks main screen example" height="800px">
+                <img id="top-banner-mockup" src="./assets/images/bookdrops-mock-main-screen.png" alt="Dropbooks main screen example" height="600px">
               </div>
             </div>
       </section>
