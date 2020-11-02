@@ -15,3 +15,9 @@
 
 - Canva - Online Image Editing
 - https://www.canva.com
+
+- App mockup icons by Flaticon
+- https://www.flaticon.local
+
+- Book covers from Amazon
+- https://www.amazon.com/

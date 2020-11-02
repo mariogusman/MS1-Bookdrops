@@ -62,11 +62,20 @@ nav {
 
 }
 
-.top-section {
-    
-    height: 80vh;
-    width: 100%;
+/* :::::::::::::::::::::::::::::::::::::::::: Main */
+.top-banner {
+    margin-top: 50px;
 }
+
+.top-mockup {
+    background-image: url(../images/bookdrops-mock-main-screen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fit;
+    max-width: 100%;
+    height: 50vh;
+}
+
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
