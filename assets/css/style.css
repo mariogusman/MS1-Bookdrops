@@ -74,6 +74,7 @@ nav {
     background-position: center top;
     background-attachment: scroll;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .top-banner-left {
@@ -98,16 +99,31 @@ nav {
 
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
-
-.footer-curve {
-    height: 20vh;
-    background-image: url(../images/footer-curve.png);
-    background-size: fill;
-    background-repeat: no-repeat;
+footer {
+    background-color: #dedede;
 }
 
+.newsletter {
+    max-width: 70%;
+}
 
+.footer-item {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.footer-downloads{
+    margin-bottom: 30px;
+}
+
+#footer-left {
+    padding-left: 10vw;
+}
+
+.copyrights {
+    background-color: #cecece;
+    height: 50px;
+}
 
 /* :::::::::::::::::::::::::::::::::::::::::: Hover.CSS */
 .hvr-fade {
