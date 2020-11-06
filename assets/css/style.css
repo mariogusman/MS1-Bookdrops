@@ -1,226 +1,190 @@
 /* :::::::::::::::::::::::::::::::::::::::::: General */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    background-color: white;
-
+ body {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	background-color: white;
 }
-
-
-
 h1 h2 h3 h4 h5 h6 {
-    font-family: "Poppins", sans-serif;
-    margin-bottom: 15px;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 15px;
 }
-
 /* ::::::: Logo :::::::  */
-.logo{
-    color: #1f1f1f;
-    font-weight: 700;
+
+.logo {
+	color: #1f1f1f;
+	font-weight: 700;
 }
-.logo>span{
-    color: #735db1;
+.logo>span {
+	color: #735db1;
 }
 /* :::::::::::::::::::::::::::::::::::::::::: Colors */
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
+
 nav {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 button {
-    padding-left: 50px;
-    padding-right: 5px;
+	padding-left: 50px;
+	padding-right: 5px;
 }
-
 nav {
-    margin-top: 25px;
+	margin-top: 25px;
 }
-
 .active {
-    font-weight: 500;
+	font-weight: 500;
 }
-
 .navbar-brand {
-    margin-left: 15%;
+	margin-left: 15%;
 }
-
 .nav-link {
-    margin-left: 20px;
-    margin-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
-
 .navbar-toggler {
-    padding: .25rem .25rem;
-    margin-top: 5px;
+	padding: .25rem .25rem;
+	margin-top: 5px;
 }
-
 #sign-up-modal-button {
-    margin-right: 15%;
-    margin-left: 20px;
-    background-color: #735db1;
-    border: none;
-    border-radius: 16px;
+	margin-right: 15%;
+	margin-left: 20px;
+	background-color: #735db1;
+	border: none;
+	border-radius: 16px;
 }
-
 /* :::::::::::::::::::::::::::::::::::::::::: Main */
+
 section {
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 .top-banner {
-    margin-top: -100px;
-    padding-top: 100px;
-    background-image: url("../images/top-grad.png");
-    background-size: contain;
-    background-position: top right;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    overflow: hidden;
+	margin-top: -100px;
+	padding-top: 100px;
+	background-image: url("../images/top-grad.png");
+	background-size: contain;
+	background-position: top right;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
-
 .top-banner-left {
-    padding-left: 20%;
-    padding-right: 5%;
+	padding-left: 20%;
+	padding-right: 5%;
 }
-
-    #top-banner-text {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    #top-ios-badge {
-        margin-left: 0%;
-        margin-right: 3%;
-    }
-
+#top-banner-text {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#top-ios-badge {
+	margin-left: 0%;
+	margin-right: 3%;
+}
 #top-banner-mockup {
-    margin-top: 10%;
-    margin-left: 20%;
+	margin-top: 10%;
+	margin-left: 20%;
 }
-
 #genre-tablet {
-    margin-left: 0;
+	margin-left: 0;
+	max-width: 100%;
 }
 .genre-box {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    background-color: #c4a6e2;
-    border-radius: 12px;
+	width: 40px;
+	height: 40px;
+	margin-left: 11px;
+	background-color: #c4a6e2;
+	border-radius: 12px;
 }
-
 .genre-box>i {
-    color: rgba(80,38,114,0.5);
-    margin-top: 25%;
-    font-size: 1.4rem;
+	color: rgba(80, 38, 114, 0.5);
+	margin-top: 25%;
+	font-size: 1.4rem;
 }
-
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
+
 footer {
-    background-color: #dedede;
+	background-color: #dedede;
 }
-
 .newsletter {
-    max-width: 70%;
+	max-width: 70%;
 }
-
 .footer-item {
-    padding-left: 30px;
-    padding-right: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
-
-.footer-downloads{
-    margin-bottom: 30px;
+.footer-downloads {
+	margin-bottom: 30px;
 }
-
 #footer-left {
-    padding-left: 10vw;
+	padding-left: 10vw;
 }
-
 .copyrights {
-    background-color: #cecece;
-    height: 50px;
-    margin-bottom: 0;
+	background-color: #cecece;
+	height: 50px;
+	margin-bottom: 0;
 }
-
 /* :::::::::::::::::::::::::::::::::::::::::: Hover.CSS */
+
 .hvr-fade {
-   border-radius: 30px;
-   margin-right: 10px;
-   color: black;
+	border-radius: 30px;
+	margin-right: 10px;
+	color: black;
 }
-
 .hvr-fade:hover {
-    background: rgba(255,255,255, 0.2) !important;
-    border-radius: 30px;
+	background: rgba(255, 255, 255, 0.2) !important;
+	border-radius: 30px;
 }
-
-
 /* ------------------------------------------ @ Media Queries */
+
 @media only screen and (max-width: 1090px) {
-    nav {
-      background-color: white !important;
-      margin-top: 0px;
-      margin-bottom: 10%;
-    }
-
-    .navbar-brand {
-        margin-left: 5px !important;
-    }
-
-    #sign-up-modal-button {
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-        background-color: #735db1;
-        border: none;
-        border-radius: 16px;
-    }
-
-    .nav-link {
-        color: #1f1f1f !important;
-        border-bottom: 1px solid #cecece;
-        margin-bottom: 5px;
-    }
-
-    .top-banner-left {
-        padding-left: 5%;
-    }
-
-    #top-ios-badge {
-        margin-left: 12%;
-        margin-right: 3%;
-    }
-
-    #top-banner-mockup {
-        margin-top: 10%;
-        margin-left: 8%;
-    }
-
-    .newsletter {
-        max-width: 100%;
-    }
-
-    .footer-item {
-        padding-right: 10% !important;
-        padding-left: 10% !important;
-    }
-
-    .footer-downloads{
-        margin-bottom: 20px;
-    }
-
-    #footer-p {
-        text-align: center;
-        width: 100%;
-    }
-
-    footer>div>div>a>.logo {
-        margin-left: 23%;
-    }
-
-
-
-  }
-  
+	nav {
+		background-color: white !important;
+		margin-top: 0px;
+		margin-bottom: 10%;
+	}
+	.navbar-brand {
+		margin-left: 5px !important;
+	}
+	#sign-up-modal-button {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		background-color: #735db1;
+		border: none;
+		border-radius: 16px;
+	}
+	.nav-link {
+		color: #1f1f1f !important;
+		border-bottom: 1px solid #cecece;
+		margin-bottom: 5px;
+	}
+	.top-banner-left {
+		padding-left: 5%;
+	}
+	#top-ios-badge {
+		margin-left: 12%;
+		margin-right: 3%;
+	}
+	#top-banner-mockup {
+		margin-top: 10%;
+		margin-left: 8%;
+	}
+	.newsletter {
+		max-width: 100%;
+	}
+	.footer-item {
+		padding-right: 10% !important;
+		padding-left: 10% !important;
+	}
+	.footer-downloads {
+		margin-bottom: 20px;
+	}
+	#footer-p {
+		text-align: center;
+		width: 100%;
+	}
+	footer>div>div>a>.logo {
+		margin-left: 23%;
+	}
+}
