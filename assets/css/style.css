@@ -87,8 +87,7 @@ section {
 	margin-left: 20%;
 }
 #genre-tablet {
-	margin-left: 0;
-	max-width: 100%;
+    max-width: 100%;
 }
 .genre-box {
 	width: 40px;
