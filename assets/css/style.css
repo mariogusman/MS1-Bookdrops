@@ -86,18 +86,19 @@ nav {
     max-width: 100%;
 }
 .genre-box {
-	width: 40px;
-	height: 40px;
-	margin-left: 11px;
+	width: 55px;
+	height: 55px;
 	background-color: #c4a6e2;
-	border-radius: 12px;
+	border-radius: 18px;
+	margin: auto;
 }
 .genre-box>i {
 	color: rgba(80, 38, 114, 0.5);
-	margin-top: 25%;
-	font-size: 1.4rem;
 }
 
+.hvr-glow:hover {
+	box-shadow: 0 0 10px rgba(210, 142, 255, 0.76);
+  }
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
