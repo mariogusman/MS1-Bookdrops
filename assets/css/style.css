@@ -11,6 +11,10 @@ h1 h2 h3 h4 h5 h6 {
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 15px;
 }
+
+.gray-bg {
+	background-color: whitesmoke;
+}
 /* ::::::: Logo :::::::  */
 
 .logo {
@@ -98,7 +102,9 @@ nav {
 
 .hvr-glow:hover {
 	box-shadow: 0 0 10px rgba(210, 142, 255, 0.76);
-  }
+}
+
+
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
@@ -135,7 +141,7 @@ footer {
 	border-radius: 30px;
 }
 .feature-card {
-	border: 1px solid white;
+	border: 1px solid whitesmoke;
 	border-radius: 10px;
 	transition-duration: 0.3s;
 }
