@@ -28,22 +28,13 @@ h1 h2 h3 h4 h5 h6 {
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
 
-nav {
-	background-color: transparent !important;
-}
-button {
-	padding-left: 50px;
-	padding-right: 5px;
-}
-nav {
-	margin-top: 25px;
+.nav-bg {
+	background-color: rgba(255, 255, 255, 0.1);
 }
 .active {
 	font-weight: 500;
 }
-.navbar-brand {
-	margin-left: 15%;
-}
+
 .nav-link {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -51,6 +42,10 @@ nav {
 .navbar-toggler {
 	padding: .25rem .25rem;
 	margin-top: 5px;
+}
+
+.navbar-toggler-icon{
+	color: black;
 }
 #sign-up-modal-button {
 	margin-right: 15%;
@@ -109,7 +104,9 @@ nav {
 	box-shadow: 0 0 10px rgba(210, 142, 255, 0.76);
 }
 
-
+.feature-p {
+	height: 96px;
+}
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
@@ -136,19 +133,6 @@ footer {
 }
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
-.hvr-fade {
-	border-radius: 30px;
-	margin-right: 10px;
-	color: black;
-}
-.hvr-fade:hover {
-	background: rgba(255, 255, 255, 0.2) !important;
-	border-radius: 30px;
-}
-.feature-p {
-	height: 96px;
-}
-
 
 /*------------------------------------------- Dividers -*/
 
@@ -161,6 +145,7 @@ footer {
 		background-color: white !important;
 		margin-top: 0px;
 		margin-bottom: 10%;
+		width: 100%;
 	}
 	.navbar-brand {
 		margin-left: 5px !important;
