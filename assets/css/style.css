@@ -100,6 +100,11 @@ nav {
 	color: rgba(80, 38, 114, 0.5);
 }
 
+.genre-p {
+	font-size: 12px;
+	letter-spacing: -0.5px;
+}
+
 .hvr-glow:hover {
 	box-shadow: 0 0 10px rgba(210, 142, 255, 0.76);
 }
@@ -140,16 +145,14 @@ footer {
 	background: rgba(255, 255, 255, 0.2) !important;
 	border-radius: 30px;
 }
-.feature-card {
-	border: 1px solid whitesmoke;
-	border-radius: 10px;
-	transition-duration: 0.3s;
+.feature-p {
+	height: 96px;
 }
-.feature-card:hover{
-	border: 1px solid lightgray;
-	border-radius: 10px;
-	transition-duration: 0.3s;
-}
+
+
+/*------------------------------------------- Dividers -*/
+
+
 
 /* ------------------------------------------ @ Media Queries */
 
@@ -198,5 +201,6 @@ footer {
     }
     #genres-text {
         text-align: center;
-    }
+	}
+
 }
