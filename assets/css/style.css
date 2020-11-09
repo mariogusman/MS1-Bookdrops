@@ -57,11 +57,9 @@ a:hover {
 	color: black;
 }
 #sign-up-modal-button {
-	margin-right: 15%;
-	margin-left: 20px;
 	background-color: #735db1;
 	border: none;
-	border-radius: 16px;
+	border-radius: 50px;
 }
 /* :::::::::::::::::::::::::::::::::::::::::: Main */
 
@@ -75,7 +73,6 @@ a:hover {
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
-
 
 .top-banner-left {
 	padding-left: 20%;
@@ -133,6 +130,20 @@ a:hover {
 	text-decoration: none;
 }
 
+/*- FAQ accordion -*/
+
+.card-deck>.card>.card-header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card-deck>.card {
+	border-radius: 20px !important;
+}
+
+.price-card {
+	border-radius: 20px 20px 0 0 !important;
+}
 
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
@@ -160,6 +171,9 @@ footer {
 }
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
+/* Imported from CSS Trics - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition */
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.02); }
 
 /*------------------------------------------- Dividers -*/
 
