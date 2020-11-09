@@ -28,7 +28,7 @@
 						<i class="fas fa-bars align-self-center "></i>
 					</span>
 				</button>
-				
+
 				<!-- Actual Navbar with links -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
@@ -45,54 +45,7 @@
 					</ul>
 				</div>
 
-				<!-- Modal base body Imported from Bootstrap Documentation and personalised -->
-				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-					<div class="modal-dialog modal-dialog-centered" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLongTitle">Subscribe</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<!-- Modal Body -->
-							<div class="modal-body">
-								<form action="">
-									<div class="input-group mb-3">
-										<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
-										</div>
-										<input required type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-									</div>
-									<div class="input-group mb-3">
-										<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
-										</div>
-										<input required type="email" class="form-control" placeholder="name@email.com" aria-label="Email" aria-describedby="basic-addon1">
-									</div>
-									<div class="input-group mb-3">
-										<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-										</div>
-										<input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
-									</div>
-									<div class="input-group mb-3">
-										<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
-										</div>
-										<input required type="password" class="form-control" placeholder="Repeat Password" aria-label="Password" aria-describedby="basic-addon1">
-									</div>
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="remember">
-										<label class="form-check-label" for="remember"> <small>Remember me</small>
-										</label>
-									</div>
-							</div>
-							<div class="modal-footer">
-								<p class="mr-auto"><small>Already have an account? <a href="#">Sign In </a></small>
-								</p>
-								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-								<button type="submit" class="btn btn-primary">Subscribe</button>
-							</div>
-							</form>
-						</div>
-					</div>
-				</div>
+				
 		</div>
 		</nav>
 		</header>
@@ -436,7 +389,7 @@
 					  <li class="my-1">Purchase Individual 'Books</li>
 					</ul>
 					<!-- Button to trigger modal Imported from Bootstrap Documentation-->
-					<button id="sign-up-modal-button" type="button" class="btn btn-primary mt-auto btn-signup hvr-buzz-out py-3" data-toggle="modal" data-target="#exampleModalCenter">Subscribe</button>
+					<button id="sign-up-modal-button" type="button" class="btn btn-primary mt-auto btn-signup hvr-buzz-out py-3" data-toggle="modal" data-target="#exampleModalCenter">Start for Free</button>
 				  </div>
 				</div>
 
@@ -447,6 +400,7 @@
 				  <div class="card-body d-flex flex-column">
 					<h1 class="card-title pricing-card-title mb-0">$18 <small class="text-muted">/ mo</small></h1>
 					<p class="small text-muted border-bottom pb-3">Billed Monthly</p>
+					
 					
 					<ul class="list-unstyled my-auto">
 					  <li class="my-1">All 'Free' Benefits</li>
@@ -554,6 +508,121 @@
 				</ul>
 			</div>
 	</footer>
+
+	<!-- Modals -->
+	<!-- Modal body Imported from Bootstrap Documentation and personalised -->
+	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Create Your Account</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<!-- Modal Body -->
+				<div class="modal-body">
+					<div id="subscribe-content">
+						<form action="">
+							<div class="input-group mb-3">
+								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+								</div>
+								<input required type="text" class="form-control" placeholder="Your Name" aria-label="Name" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+								</div>
+								<input required type="email" class="form-control" placeholder="your@email.com" aria-label="Email" aria-describedby="basic-addon1">
+							</div>
+							<div class="input-group mb-3">
+								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+								</div>
+								<input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="remember" id="remember">
+								<label class="form-check-label" for="remember"> <small>Remember me</small>
+								</label>
+								<br>
+								<input class="form-check-input" type="checkbox" value="join-news" id="join-news">
+								<label class="form-check-label mb-2" for="remember"> <small>Join Newsletter</small>
+								</label>
+							</div>
+							<p class="small text-muted">By creating an account you agree to our <a data-toggle="modal" data-target="#tos-modal"><u>Terms of Service</u></button></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-signup btn-success">Subscribe</button>
+						</div>
+						</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- TOS Modal -->
+	<div class="modal" id="tos-modal" tabindex="-2" role="dialog" aria-labelledby="tos-modalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5>
+				</div>
+				<!-- Modal Body -->
+				<div class="modal-body my-3 mx-2">
+					<!-- TOS Generated on www.termsofservicegenerator.net/ -->
+					<h3 class="my-3">Website Terms and Conditions of Use</h3>
+
+					<h4 class="my-3">1. Terms</h4>
+
+					<p>By accessing this Website, accessible from www.bookdrops.ie, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+
+					<h4 class="my-3">2. Use License</h4>
+
+					<p>Permission is granted to temporarily download one copy of the materials on Bookdrops's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+
+					<ul>
+					<li>modify or copy the materials;</li>
+					<li>use the materials for any commercial purpose or for any public display;</li>
+					<li>attempt to reverse engineer any software contained on Bookdrops's Website;</li>
+					<li>remove any copyright or other proprietary notations from the materials; or</li>
+					<li>transferring the materials to another person or "mirror" the materials on any other server.</li>
+					</ul>
+
+					<p>This will let Bookdrops to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.</p>
+
+					<h4 class="my-3">3. Disclaimer</h4>
+
+					<p>All the materials on Bookdrops’s Website are provided "as is". Bookdrops makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Bookdrops does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
+
+					<h4 class="my-3">4. Limitations</h4>
+
+					<p>Bookdrops or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Bookdrops’s Website, even if Bookdrops or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
+
+					<h4 class="my-3">5. Revisions and Errata</h4>
+
+					<p>The materials appearing on Bookdrops’s Website may include technical, typographical, or photographic errors. Bookdrops will not promise that any of the materials in this Website are accurate, complete, or current. Bookdrops may change the materials contained on its Website at any time without notice. Bookdrops does not make any commitment to update the materials.</p>
+
+					<h4 class="my-3">6. Links</h4>
+
+					<p>Bookdrops has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Bookdrops of the site. The use of any linked website is at the user’s own risk.</p>
+
+					<h4 class="my-3">7. Site Terms of Use Modifications</h4>
+
+					<p>Bookdrops may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
+
+					<h4 class="my-3">8. Your Privacy</h4>
+
+					<p>Please read our Privacy Policy.</p>
+
+					<h4 class="my-3">9. Governing Law</h4>
+
+					<p>Any claim related to Bookdrops's Website shall be governed by the laws of ie without regards to its conflict of law provisions.</p>
+				</div>
+				<div class="modal-footer">						
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
