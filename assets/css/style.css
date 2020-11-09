@@ -24,6 +24,15 @@ h1 h2 h3 h4 h5 h6 {
 .logo>span {
 	color: #735db1;
 }
+
+a {
+	color: #c4a6e2;
+}
+
+a:hover {
+	color: #735db1;
+	text-decoration: none;
+}
 /* :::::::::::::::::::::::::::::::::::::::::: Colors */
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
@@ -66,6 +75,8 @@ h1 h2 h3 h4 h5 h6 {
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
+
+
 .top-banner-left {
 	padding-left: 20%;
 	padding-right: 5%;
@@ -107,6 +118,22 @@ h1 h2 h3 h4 h5 h6 {
 .feature-p {
 	height: 96px;
 }
+
+.card-header {
+	padding: 0px;
+}
+
+.btn-link {
+	color: #1f1f1f;
+	font-weight: 500;
+}
+
+.btn-link:hover {
+	color: #8b5db1;
+	text-decoration: none;
+}
+
+
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
