@@ -28,19 +28,23 @@
 						<i class="fas fa-bars align-self-center "></i>
 					</span>
 				</button>
+				
 				<!-- Actual Navbar with links -->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="#">home</a>
 						</li>
-						<li class="nav-item active"> <a class="nav-link" href="#features">features</a>
+						<li class="nav-item"> <a class="nav-link" href="#features">features</a>
 						</li>
-						<li class="nav-item active"> <a class="nav-link" href="#faq">FAQ</a>
+						<li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a>
 						</li>
-						<!-- Button to trigger modal Imported from Bootstrap Documentation-->
-						<button id="sign-up-modal-button" type="button" class="btn btn-primary btn-signup hvr-buzz-out" data-toggle="modal" data-target="#exampleModalCenter">Subscribe</button>
+						<!-- Button linking to pricing section at the bottom - Idea taken from Balusc at https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link -->
+						<li>
+							<form action="#subscribe" method="get"><button class="btn btn-light mt-auto btn-signup hvr-buzz-out">Subscribe</button></form>
+						</li>
 					</ul>
 				</div>
+
 				<!-- Modal base body Imported from Bootstrap Documentation and personalised -->
 				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 					<div class="modal-dialog modal-dialog-centered" role="document">
@@ -287,7 +291,7 @@
 						</button>
 						</h5>
 					</div>
-					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 						<div class="card-body">
 							<p>Bookdrops is a new book subscription.</p>
 							<p>We deliver meaningful and engaging books to your doorstep and we're sure all of them will keep you hooked!</p>
@@ -412,7 +416,7 @@
 	<section class="my-5">
 		<a name="subscribe"></a>
 		<div class="container">
-			<div class="row mb-3">
+			<div class="row mb-5">
 				<h3 class="px-3">Pricing</h3>
 			</div>
 
@@ -425,7 +429,7 @@
 				  <div class="card-body d-flex flex-column">
 					<h1 class="card-title pricing-card-title mb-0">€ 0 <small class="text-muted">/ mo</small></h1>
 					<p class="small text-muted border-bottom pb-3">Read-Only</p>
-					<ul class="list-unstyled  my-auto">
+					<ul class="list-unstyled my-auto">
 					  <li class="my-1">Create and Manage your Profile</li>
 					  <li class="my-1">Read Reviews</li>
 					  <li class="my-1">Read Discussion Groups</li>
@@ -436,7 +440,7 @@
 				  </div>
 				</div>
 
-				<div class="card mb-4 grow">
+				<div class="card mb-4 grow ">
 				  <div class="card-header price-card">
 					<h4 class="my-0 font-weight-normal">Monthly</h4>
 				  </div>
