@@ -21,3 +21,6 @@
 
 - Book covers from Amazon
 - https://www.amazon.com/
+
+- Terms of Service Template from Terms of Service Generator 
+- on www.termsofservicegenerator.net/
