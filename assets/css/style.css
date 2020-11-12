@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap');
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "Poppins", sans-serif;
 	background-color: white;
 }
+
 h1 h2 h3 h4 h5 h6 {
 	font-family: "Poppins", sans-serif;
 	margin-bottom: 15px;
@@ -17,6 +17,7 @@ h1 h2 h3 h4 h5 h6 {
 .gray-bg {
 	background-color: whitesmoke;
 }
+
 /* ::::::: Logo :::::::  */
 
 .logo {
@@ -26,6 +27,7 @@ h1 h2 h3 h4 h5 h6 {
 	letter-spacing: -2px;
 	font-size: 32px;
 }
+
 .logo>span {
 	color: #885db1;
 }
@@ -38,6 +40,7 @@ a:hover {
 	color: #735db1;
 	text-decoration: none;
 }
+
 /* :::::::::::::::::::::::::::::::::::::::::: Colors */
 
 /* :::::::::::::::::::::::::::::::::::::::::: Navigation */
@@ -45,6 +48,7 @@ a:hover {
 .nav-bg {
 	background-color: rgba(255, 255, 255, 0.1);
 }
+
 .active {
 	font-weight: 500;
 }
@@ -53,19 +57,22 @@ a:hover {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
 .navbar-toggler {
 	padding: .25rem .25rem;
 	margin-top: 5px;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
 	color: black;
 }
+
 #sign-up-modal-button {
 	background-color: #735db1;
 	border: none;
 	border-radius: 50px;
 }
+
 /* :::::::::::::::::::::::::::::::::::::::::: Main */
 
 .top-banner {
@@ -83,12 +90,15 @@ a:hover {
 	height: 40px;
 	margin: 10px;
 }
+
 #top-banner-mockup {
 	max-height: 600px;
 }
+
 #genre-tablet {
-    max-width: 100%;
+	max-width: 100%;
 }
+
 .genre-box {
 	width: 55px;
 	height: 55px;
@@ -96,6 +106,7 @@ a:hover {
 	border-radius: 18px;
 	margin: auto;
 }
+
 .genre-box>i {
 	color: rgba(80, 38, 114, 0.5);
 }
@@ -139,49 +150,57 @@ a:hover {
 .card-deck>.card {
 	border-radius: 20px !important;
 	/* Box Shadow Created at - https://www.cssmatic.com/box-shadow */
-	-webkit-box-shadow: 0px 5px 7px 5px rgba(247,247,247,1);
-	-moz-box-shadow: 0px 5px 7px 5px rgba(247,247,247,1);
-	box-shadow: 0px 5px 7px 5px rgba(247,247,247,1);
-
+	-webkit-box-shadow: 0px 5px 7px 5px rgba(247, 247, 247, 1);
+	-moz-box-shadow: 0px 5px 7px 5px rgba(247, 247, 247, 1);
+	box-shadow: 0px 5px 7px 5px rgba(247, 247, 247, 1);
 }
 
 .price-card {
 	border-radius: 20px 20px 0 0 !important;
 }
 
-
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
 footer {
 	background-color: #dedede;
 }
+
 .newsletter {
 	max-width: 70%;
 }
+
 .footer-item {
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
 .footer-downloads {
 	margin-bottom: 30px;
 }
+
 #footer-left {
 	padding-left: 10vw;
 }
+
 .btn-newsletter {
 	height: 29px;
 	margin-top: 1px;
 	border-radius: 10px;
 }
+
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
 /* Imported from CSS Trics - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition */
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.02); }
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.02);
+}
 
 /*------------------------------------------- Dividers -*/
-
-
 
 /* ------------------------------------------ @ Media Queries */
 
@@ -189,7 +208,6 @@ footer {
 	body {
 		text-align: center;
 	}
-
 	nav {
 		background-color: white !important;
 		margin-top: 0px;
@@ -212,12 +230,8 @@ footer {
 		margin-bottom: 5px;
 	}
 	.top-banner-left {
-        padding-left: 5%;
-        text-align: center;
-	}
-
-	.newsletter {
-		max-width: 100%;
+		padding-left: 5%;
+		text-align: center;
 	}
 	.footer-downloads {
 		margin-bottom: 20px;
@@ -228,23 +242,17 @@ footer {
 	}
 	footer>div>div>a>.logo {
 		margin-left: 23%;
-    }
-    #genres-text {
-        text-align: center;
 	}
-
+	#genres-text {
+		text-align: center;
+	}
 }
 
 @media only screen and (min-width: 993px) {
 	.navbar-brand {
 		margin-left: 15%;
 	}
-
 	.navbar-nav {
 		margin-right: 15%;
-	}
-
-	.download-badge {
-		justify-self: start;
 	}
 }
