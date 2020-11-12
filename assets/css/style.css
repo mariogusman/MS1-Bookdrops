@@ -168,10 +168,10 @@ footer {
 #footer-left {
 	padding-left: 10vw;
 }
-.copyrights {
-	background-color: #cecece;
-	height: 50px;
-	margin-bottom: 0;
+.btn-newsletter {
+	height: 29px;
+	margin-top: 1px;
+	border-radius: 10px;
 }
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
@@ -218,10 +218,6 @@ footer {
 
 	.newsletter {
 		max-width: 100%;
-	}
-	.footer-item {
-		padding-right: 10% !important;
-		padding-left: 10% !important;
 	}
 	.footer-downloads {
 		margin-bottom: 20px;
