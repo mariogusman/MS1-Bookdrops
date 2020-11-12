@@ -267,7 +267,7 @@
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
 						<div class="card-body">
-							<p>Every first week of the month you will receave at least one book picked by us based on your profile and interactions in the app.</p>
+							<p>Every first week of the month you will receive at least one book picked by us but based on your profile and interactions in the app.</p>
 							<p>If you're a Premium Member, you will also get a small gift with your book!</p>
 						</div>
 					</div>
@@ -284,7 +284,7 @@
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
 						<div class="card-body">
 							<p>Unfortunatelly no. That goes agains the purpose of the subscription model which is to stimulate your curiosity with new autors and genres.</p>
-							<p>Please note that these are based on your profile, so the more you tell us about yourself the better!</p>
+							<p>Note that the books are always based on your profile, so the more you tell us about yourself the better!</p>
 						</div>
 					</div>
 				</div>
@@ -299,7 +299,7 @@
 					</div>
 					<div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
 						<div class="card-body">
-							<p>If you have received a book that you already own, please send us an email or <a href="#">click here</a> to contact us with more information and we will do our best to send you a new one.</p>
+							<p>If you have received a book that you already own, please <a href="mailto:help@bookdrops.ie">send us an email</a> or <a href="#">click here</a> to contact us with more information and we will do our best to send you a new one.</p>
 						</div>
 					</div>
 				</div>
@@ -363,7 +363,7 @@
 						<div class="card-body">
 							<p>Unfortunatelly no. We have a No Refunds and No Returns policy.</p>
 							<p>If you did not like the book we sent you, feel free to leave your review explaining why and please mark this as a "disliked" book so we can fine-tune our next recommentdations.</p>
-							<p>In case the book or gift received were damaged or if you already owned that book, please send us an email or <a href="#">click here</a> to contact us and we will do our best to send you a new one as soon as possible.</p>
+							<p>In case the book or gift received were damaged or if you already owned that book, please <a href="mailto:help@bookdrops.ie">send us an email</a> or <a href="#faq" data-toggle="modal" data-target="#modal-contact">click here</a> to contact us and we will do our best to send you a new one as soon as possible.</p>
 						</div>
 					</div>
 				</div>
@@ -525,17 +525,17 @@
 						<div id="subscribe-content">
 							<form action="">
 								<div class="input-group mb-3">
-									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+									<div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
 									</div>
 									<input required type="text" class="form-control" placeholder="Your Name" aria-label="Name" aria-describedby="basic-addon1">
 								</div>
 								<div class="input-group mb-3">
-									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+									<div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
 									</div>
 									<input required type="email" class="form-control" placeholder="your@email.com" aria-label="Email" aria-describedby="basic-addon1">
 								</div>
 								<div class="input-group mb-3">
-									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+									<div class="input-group-prepend"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
 									</div>
 									<input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
 								</div>
@@ -565,7 +565,7 @@
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5>
+						<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5> <button type="button" class="btn btn-secondary btn-small" data-dismiss="modal">Close</button>
 					</div>
 					<!-- Modal Body -->
 					<div class="modal-body my-3 mx-2">
@@ -623,6 +623,51 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Contact Modal -->
+		<div class="modal fade" id="modal-contact" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="modal-contact">Contact Us</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+
+					<div class="modal-body">
+						<form action="">
+							<div class="input-group input-group-sm my-1">
+								<div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span></div>
+								<input type="text" id="contact-name" class="form-control form-control-sm" placeholder="Your Name" required>
+							</div>
+							<div class="input-group input-group-sm my-1">
+								<div class="input-group-prepend"><span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span></div>
+								<input type="email" id="contact-email" class="form-control form-control-sm" placeholder="Your Email" required>
+							</div>
+							<select class="custom-select custom-select-sm my-1">
+								<option selected>Reason for contact</option>
+								<option value="account">Account Issue</option>
+								<option value="payment">Payment</option>
+								<option value="community">Community issues</option>
+								<option value="feedback">Feedback</option>
+								<option value="other">Media/Business</option>								
+								<option value="other">Other</option>
+							  </select>
+							<div class="input-group input-group-sm my-1">								
+								<textarea class="form-control form-control-lg" aria-label="textarea" placeholder="Your message here    :c)"></textarea>
+							</div>
+						</form>
+
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="submit" class="btn btn-success">Send</button>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 	<!-- Optional JavaScript -->
