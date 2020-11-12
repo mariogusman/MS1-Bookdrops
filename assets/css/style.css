@@ -85,9 +85,14 @@ a:hover {
 #top-ios-badge {
 	margin-left: 0%;
 	margin-right: 3%;
+	height: 40px;
+}
+
+#download-badge {
+	height: 40px;
 }
 #top-banner-mockup {
-    max-width: 100%;
+	max-height: 600px;
 }
 #genre-tablet {
     max-width: 100%;
@@ -186,12 +191,12 @@ footer {
 
 /* ------------------------------------------ @ Media Queries */
 
-@media only screen and (max-width: 1090px) {
+@media only screen and (max-width: 992px) {
 	nav {
 		background-color: white !important;
 		margin-top: 0px;
 		margin-bottom: 10%;
-		width: 100%;
+		width: 100vw;
 	}
 	.navbar-brand {
 		margin-left: 5px !important;
@@ -234,4 +239,14 @@ footer {
         text-align: center;
 	}
 
+}
+
+@media only screen and (min-width: 993px) {
+	.navbar-brand {
+		margin-left: 15%;
+	}
+
+	.navbar-nav {
+		margin-right: 15%;
+	}
 }

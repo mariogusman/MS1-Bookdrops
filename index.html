@@ -19,10 +19,13 @@
 <body>
 	<!-- Header -->
 	<div class="nav-bg">
-		<header class="">
+		<header>
 			<!-- Imported and edited from Bootstrap 4 Documentation -->
-			<nav class="navbar navbar-expand-lg navbar-dark pt-3 mb-3 container">
-				<!-- Logo --> <a class="navbar-brand " href="#"><h2 class="logo">book<span>drops</span></h2></a>
+			<nav class="navbar navbar-expand-sm navbar-dark pt-3 mb-3 container-fluid">
+				<!-- Logo --> 
+				<a class="navbar-brand" href="#">
+					<h2 class="logo">book<span>drops</span></h2>
+				</a>
 				<!-- Toggler button imported from Bootstrap 4 Documentation and personalised -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">	<span class="navbar-toggler-icon d-flex justify-content-center">
 						<i class="fas fa-bars align-self-center "></i>
@@ -44,14 +47,11 @@
 						</li>
 					</ul>
 				</div>
-
-				
-		</div>
-		</nav>
+			</nav>
 		</header>
 	</div>
 
-	<!-- Topmost Content Section -->
+	<!-- Top Banner Content Section -->
 	<section class="pb-5">
 		<div class="container-fluid top-banner">
 			<div class="row">
@@ -62,15 +62,15 @@
 						<br>Click one of the buttons below to start enjoying!</p>
 					<div class="row justify-content-center">
 						<a id="top-ios-badge" href="https://www.apple.com/ie/ios/app-store/" target="_blank" rel="noopener noreferrer">
-							<img src="./assets/images/ios-app-store-badge.png" alt="Download bookdrops on the App Store" height="40px">
+							<img id="download-badge" src="./assets/images/ios-app-store-badge.png" alt="iOS Download Link">
 						</a>
 						<a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-							<img src="./assets/images/google-play-badge.png" alt="Get bookdrops on Google Play" height="40px">
+							<img id="download-badge" src="./assets/images/google-play-badge.png" alt="Android Download Link">
 						</a>
 					</div>
 				</div>
-				<div class="col-md-6 my-4 px-5 mx-auto">
-					<img id="top-banner-mockup" src="./assets/images/bookdrops-mock-main-screen.png" alt="Dropbooks main screen example" height="600px">
+				<div class="col-md-6 my-5 d-flex justify-content-center">
+					<img id="top-banner-mockup" src="./assets/images/bookdrops-mock-main-screen.png" alt="Dropbooks main screen example">
 				</div>
 			</div>
 	</section>
@@ -89,7 +89,7 @@
 							<img src="./assets/images/icons/profile.png" alt="">
 						</div>
 						<div class="col-8 border-left">
-							<h5 class="">Your Profile</h5>
+							<h5>Your Profile</h5>
 							<p class="feature-p">create your profile, show us your interests and tell us what you enjoy reading.</p>
 						</div>
 					</div>
@@ -100,7 +100,7 @@
 							<img src="./assets/images/icons/choose.png" alt="">
 						</div>
 						<div class="col-8 border-left pt-2">
-							<h5 class="">You're in Control</h5>
+							<h5>You're in Control</h5>
 							<p class="feature-p">Fine-tune the suggestions through your interests, reviews and books read.</p>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 							<img src="./assets/images/icons/gift-box.png" alt="">
 						</div>
 						<div class="col-8 border-left pt-2">
-							<h5 class="">To Your Doorstep</h5>
+							<h5>To Your Doorstep</h5>
 							<p class="feature-p">The books are delivered directly to your address.
 								<br>A new surprise every month!</p>
 						</div>
@@ -123,7 +123,7 @@
 							<img src="./assets/images/icons/books.png" alt="">
 						</div>
 						<div class="col-8 border-left pt-2">
-							<h5 class="">Your Bookshelf</h5>
+							<h5>Your Bookshelf</h5>
 							<p class="feature-p">Create your online bookshelf and show the world your collection.</p>
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 							<img src="./assets/images/icons/review.png" alt="">
 						</div>
 						<div class="col-8 border-left pt-2">
-							<h5 class="">Your Point of View</h5>
+							<h5>Your Point of View</h5>
 							<p class="feature-p">Review the books you've read and also read and interact with other user's reviews.</p>
 						</div>
 					</div>
@@ -145,7 +145,7 @@
 							<img src="./assets/images/icons/feedback.png" alt="">
 						</div>
 						<div class="col-8 border-left pt-2">
-							<h5 class="">Community-Driven</h5>
+							<h5>Community-Driven</h5>
 							<p class="feature-p">Join discussion and study groups, build a reputation and become a specialist.</p>
 						</div>
 					</div>
@@ -510,119 +510,119 @@
 	</footer>
 
 	<!-- Modals -->
-	<!-- Modal body Imported from Bootstrap Documentation and personalised -->
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Create Your Account</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<!-- Modal Body -->
-				<div class="modal-body">
-					<div id="subscribe-content">
-						<form action="">
-							<div class="input-group mb-3">
-								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+		<!-- Modal body Imported from Bootstrap Documentation and personalised -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLongTitle">Create Your Account</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<!-- Modal Body -->
+					<div class="modal-body">
+						<div id="subscribe-content">
+							<form action="">
+								<div class="input-group mb-3">
+									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+									</div>
+									<input required type="text" class="form-control" placeholder="Your Name" aria-label="Name" aria-describedby="basic-addon1">
 								</div>
-								<input required type="text" class="form-control" placeholder="Your Name" aria-label="Name" aria-describedby="basic-addon1">
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+								<div class="input-group mb-3">
+									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="far fa-envelope"></i></span>
+									</div>
+									<input required type="email" class="form-control" placeholder="your@email.com" aria-label="Email" aria-describedby="basic-addon1">
 								</div>
-								<input required type="email" class="form-control" placeholder="your@email.com" aria-label="Email" aria-describedby="basic-addon1">
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+								<div class="input-group mb-3">
+									<div class="input-group-signup"> <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+									</div>
+									<input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
 								</div>
-								<input required type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+								<div class="form-check">
+									<input class="form-check-input ml-1" type="checkbox" value="remember" id="remember">
+									<label class="form-check-label ml-4" for="remember"> <small>Remember me</small>
+									</label>
+									<br>
+									<input class="form-check-input ml-1" type="checkbox" value="join-news" id="join-news">
+									<label class="form-check-label ml-4" for="remember"> <small>Join Newsletter</small>
+									</label>
+								</div>
+								<p class="small text-muted ml-4 mt-2">By creating an account you agree to our <a data-toggle="modal" data-target="#tos-modal"><u>Terms of Service</u></button>.</p>
 							</div>
-							<div class="form-check">
-								<input class="form-check-input ml-1" type="checkbox" value="remember" id="remember">
-								<label class="form-check-label ml-4" for="remember"> <small>Remember me</small>
-								</label>
-								<br>
-								<input class="form-check-input ml-1" type="checkbox" value="join-news" id="join-news">
-								<label class="form-check-label ml-4" for="remember"> <small>Join Newsletter</small>
-								</label>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="submit" class="btn btn-signup btn-success">Subscribe</button>
 							</div>
-							<p class="small text-muted ml-4 mt-2">By creating an account you agree to our <a data-toggle="modal" data-target="#tos-modal"><u>Terms of Service</u></button>.</p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="submit" class="btn btn-signup btn-success">Subscribe</button>
-						</div>
-						</form>
+							</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<!-- TOS Modal -->
-	<div class="modal fade" id="tos-modal" tabindex="-2" role="dialog" aria-labelledby="tos-modalTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5>
-				</div>
-				<!-- Modal Body -->
-				<div class="modal-body my-3 mx-2">
-					<!-- TOS Generated on www.termsofservicegenerator.net/ -->
-					<h3 class="my-3">Website Terms and Conditions of Use</h3>
+		<!-- TOS Modal -->
+		<div class="modal fade" id="tos-modal" tabindex="-2" role="dialog" aria-labelledby="tos-modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5>
+					</div>
+					<!-- Modal Body -->
+					<div class="modal-body my-3 mx-2">
+						<!-- TOS Generated on www.termsofservicegenerator.net/ -->
+						<h3 class="my-3">Website Terms and Conditions of Use</h3>
 
-					<h4 class="my-3">1. Terms</h4>
+						<h4 class="my-3">1. Terms</h4>
 
-					<p>By accessing this Website, accessible from www.bookdrops.ie, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+						<p>By accessing this Website, accessible from www.bookdrops.ie, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
 
-					<h4 class="my-3">2. Use License</h4>
+						<h4 class="my-3">2. Use License</h4>
 
-					<p>Permission is granted to temporarily download one copy of the materials on Bookdrops's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+						<p>Permission is granted to temporarily download one copy of the materials on Bookdrops's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
 
-					<ul>
-					<li>modify or copy the materials;</li>
-					<li>use the materials for any commercial purpose or for any public display;</li>
-					<li>attempt to reverse engineer any software contained on Bookdrops's Website;</li>
-					<li>remove any copyright or other proprietary notations from the materials; or</li>
-					<li>transferring the materials to another person or "mirror" the materials on any other server.</li>
-					</ul>
+						<ul>
+						<li>modify or copy the materials;</li>
+						<li>use the materials for any commercial purpose or for any public display;</li>
+						<li>attempt to reverse engineer any software contained on Bookdrops's Website;</li>
+						<li>remove any copyright or other proprietary notations from the materials; or</li>
+						<li>transferring the materials to another person or "mirror" the materials on any other server.</li>
+						</ul>
 
-					<p>This will let Bookdrops to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.</p>
+						<p>This will let Bookdrops to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.</p>
 
-					<h4 class="my-3">3. Disclaimer</h4>
+						<h4 class="my-3">3. Disclaimer</h4>
 
-					<p>All the materials on Bookdrops’s Website are provided "as is". Bookdrops makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Bookdrops does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
+						<p>All the materials on Bookdrops’s Website are provided "as is". Bookdrops makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Bookdrops does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
 
-					<h4 class="my-3">4. Limitations</h4>
+						<h4 class="my-3">4. Limitations</h4>
 
-					<p>Bookdrops or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Bookdrops’s Website, even if Bookdrops or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
+						<p>Bookdrops or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Bookdrops’s Website, even if Bookdrops or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
 
-					<h4 class="my-3">5. Revisions and Errata</h4>
+						<h4 class="my-3">5. Revisions and Errata</h4>
 
-					<p>The materials appearing on Bookdrops’s Website may include technical, typographical, or photographic errors. Bookdrops will not promise that any of the materials in this Website are accurate, complete, or current. Bookdrops may change the materials contained on its Website at any time without notice. Bookdrops does not make any commitment to update the materials.</p>
+						<p>The materials appearing on Bookdrops’s Website may include technical, typographical, or photographic errors. Bookdrops will not promise that any of the materials in this Website are accurate, complete, or current. Bookdrops may change the materials contained on its Website at any time without notice. Bookdrops does not make any commitment to update the materials.</p>
 
-					<h4 class="my-3">6. Links</h4>
+						<h4 class="my-3">6. Links</h4>
 
-					<p>Bookdrops has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Bookdrops of the site. The use of any linked website is at the user’s own risk.</p>
+						<p>Bookdrops has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Bookdrops of the site. The use of any linked website is at the user’s own risk.</p>
 
-					<h4 class="my-3">7. Site Terms of Use Modifications</h4>
+						<h4 class="my-3">7. Site Terms of Use Modifications</h4>
 
-					<p>Bookdrops may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
+						<p>Bookdrops may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
 
-					<h4 class="my-3">8. Your Privacy</h4>
+						<h4 class="my-3">8. Your Privacy</h4>
 
-					<p>Please read our Privacy Policy.</p>
+						<p>Please read our Privacy Policy.</p>
 
-					<h4 class="my-3">9. Governing Law</h4>
+						<h4 class="my-3">9. Governing Law</h4>
 
-					<p>Any claim related to Bookdrops's Website shall be governed by the laws of ie without regards to its conflict of law provisions.</p>
-				</div>
-				<div class="modal-footer">						
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<p>Any claim related to Bookdrops's Website shall be governed by the laws of ie without regards to its conflict of law provisions.</p>
+					</div>
+					<div class="modal-footer">						
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
