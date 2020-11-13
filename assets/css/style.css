@@ -192,6 +192,10 @@ footer {
 	border-radius: 10px;
 }
 
+#footer-nav {
+	margin: 0 !important;
+}
+
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
 /* Imported from CSS Trics - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition */
