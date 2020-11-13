@@ -33,11 +33,11 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 a {
-	color: #c4a6e2;
+	color: #885db1;
 }
 
 a:hover {
-	color: #735db1;
+	color: #7a25b3;
 	text-decoration: none;
 }
 
@@ -191,6 +191,7 @@ footer {
 	margin-top: 1px;
 	border-radius: 10px;
 }
+
 
 #footer-nav {
 	margin: 0 !important;
