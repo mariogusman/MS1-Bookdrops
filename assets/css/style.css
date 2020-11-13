@@ -196,6 +196,18 @@ footer {
 	margin: 0 !important;
 }
 
+#copyright {
+	background-color: #c2c2c2;
+}
+
+#mario {
+	color:#666666;
+}
+
+#mario:hover {
+	color: black;
+}
+
 /* :::::::::::::::::::::::::::::::::::::::::: Hover effects */
 
 /* Imported from CSS Trics - https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition */
