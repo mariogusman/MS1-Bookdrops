@@ -67,10 +67,14 @@ a:hover {
 	color: black;
 }
 
-#sign-up-modal-button {
+.sign-up-modal-button {
 	background-color: #735db1;
 	border: none;
-	border-radius: 50px;
+	border-radius: 18px;
+}
+
+.sign-up-modal-button:hover {
+	background-color: #81549e;
 }
 
 /* :::::::::::::::::::::::::::::::::::::::::: Main */
@@ -217,12 +221,12 @@ footer {
 	.navbar-brand {
 		margin-left: 5px !important;
 	}
-	#sign-up-modal-button {
+	.sign-up-modal-button {
 		margin-right: 0 !important;
 		margin-left: 0 !important;
 		background-color: #735db1;
 		border: none;
-		border-radius: 16px;
+		border-radius: 18px;
 	}
 	.nav-link {
 		color: #1f1f1f !important;
