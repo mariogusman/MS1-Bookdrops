@@ -128,9 +128,7 @@ a:hover {
 	height: 96px;
 }
 
-.card-header {
-	padding: 0px;
-}
+
 
 .btn-link {
 	color: #1f1f1f;
@@ -158,10 +156,20 @@ a:hover {
 	-moz-box-shadow: 0px 5px 7px 5px rgba(247, 247, 247, 1);
 	box-shadow: 0px 5px 7px 5px rgba(247, 247, 247, 1);
 }
+.card-header {
+	padding: 0px;
+}
 
+
+/*- Pricing Cards -*/
 .price-card {
 	border-radius: 20px 20px 0 0 !important;
 }
+/*-Imported from bootstrap example's - https://getbootstrap.com/docs/4.0/examples/pricing/ -*/
+.card-deck .card {
+	min-width: 220px;
+}
+/*-end of import-*/
 
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
