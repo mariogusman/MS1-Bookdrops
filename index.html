@@ -751,8 +751,8 @@
 		</div>
 		<!-- Modals -->
 		<!-- Modal body Imported from Bootstrap Documentation and personalised -->
-
-		<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1">
+		
+		<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1"><!-- Signup Modal -->
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -761,53 +761,54 @@
 						</h5>
 						<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
 					</div>
+
 					<!-- Modal Body -->
-
-					<div class="modal-body text-left">
-						<div id="subscribe-content">
-							<form action="https://formdump.codeinstitute.net/" method="post">
-								<div class="input-group mb-3">
+					<form id="subscribe-form" action="https://formdump.codeinstitute.net/" method="POST" action="https://formdump.codeinstitute.net/"></form>
+						<div class="modal-body text-left">						
+							<div>								
+								<div class="input-group mb-3"><!-- Name Field -->
 									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+										<span class="input-group-text"><i class="fas fa-user"></i></span>
 									</div>
-									<input aria-describedby="basic-addon1" aria-label="Name" class="form-control" placeholder="Your Name" required type="text">
+									<input id="subscribe-name" name="subscribe-name" aria-label="Name" class="form-control" placeholder="Your Name" required type="text">
 								</div>
 
-								<div class="input-group mb-3">
+								<div class="input-group mb-3"><!-- Email Field -->
 									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon2"><i class="far fa-envelope"></i></span>
+										<span class="input-group-text"><i class="far fa-envelope"></i></span>
 									</div>
-									<input aria-describedby="basic-addon2" aria-label="Email" class="form-control" placeholder="your@email.com" required type="email">
+									<input id="subscribe-email" name="subscribe-email" aria-label="Email" class="form-control" placeholder="your@email.com" required type="email">
 								</div>
 
-								<div class="input-group mb-3">
+								<div class="input-group mb-3"><!-- Password -->
 									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon3"><i class="fas fa-key"></i></span>
+										<span class="input-group-text"><i class="fas fa-key"></i></span>
 									</div>
-									<input aria-describedby="basic-addon3" aria-label="Password" class="form-control" placeholder="Password" required type="password">
+									<input id="subscribe-password" name="subscribe-password" aria-label="Password" class="form-control" placeholder="Password" required type="password">
 								</div>
 
-								<div class="form-check">
-									<input class="form-check-input ml-1" id="remember" type="checkbox" value="remember"> <label class="form-check-label ml-4" for="remember"><small>Remember me</small></label><br>
-									<input class="form-check-input ml-1" id="join-news" type="checkbox" value="join-news"> <label class="form-check-label ml-4" for="remember"><small>Join Newsletter</small></label>
+								<div class="form-check"><!-- Checkboxes -->
+									<input class="form-check-input ml-1" id="remember" name="remember" type="checkbox" value="remember" form="subscribe-form"> <label class="form-check-label ml-4" for="remember"><small>Remember me</small></label><br>
+									<input class="form-check-input ml-1" id="join-news" type="checkbox" value="join-news"  form="subscribe-form"> <label class="form-check-label ml-4" for="remember"><small>Join Newsletter</small></label>
 								</div>
 
-								<p class="small text-muted ml-4 mt-2">
+								<p class="small text-muted ml-4 mt-2"><!-- TOS -->
 									By creating an account you agree to our <a data-target="#tos-modal" data-toggle="modal"><u>Terms of Service</u></a>.
 									
-								</p>
-							</form>
-						</div>
+								</p>								
+							</div>
 
-						<div class="modal-footer">
-							<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> <button class="btn btn-signup btn-success" type="submit">Subscribe</button>
+							<div class="modal-footer"><!-- Footer buttons -->
+								<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> 
+								<button class="btn btn-success" data-dismiss="modal" type="submit">Send</button>
+							</div>
+						
 						</div>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>
-
-		<!-- TOS Modal -->
+		
 		<div aria-hidden="true" aria-labelledby="tos-modalTitle" class="modal fade" id="tos-modal" role="dialog" tabindex="-2">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -925,9 +926,9 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- TOS Modal -->
 
-		<!-- Contact Modal -->
+		
 		<div class="modal fade" id="modal-contact" role="dialog" tabindex="-1">
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -938,7 +939,7 @@
 						<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
 					</div>
 
-					<form id="contact-form" action="https://formdump.codeinstitute.net/" method="POST" action="https://formdump.codeinstitute.net/">
+					<form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
 						
 						<div class="modal-body">							
 								<div class="input-group input-group-sm my-1"><!-- Name field -->
@@ -990,7 +991,7 @@
 					</form>
 				</div>
 			</div>
-		</div>
+		</div><!-- Contact Modal -->
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
