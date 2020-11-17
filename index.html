@@ -1,1004 +1,581 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
-		<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"><!-- Fontawesome Import -->
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"><!-- Bootstrap CSS -->
+	<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet"><!-- Fontawesome Import -->
 
-		<script crossorigin="anonymous" src="https://kit.fontawesome.com/d972b5bebb.js">
-		</script><!-- Hover CSS Import -->
-		<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" rel="stylesheet"><!-- My CSS Stylesheet -->
-		<link href="./assets/css/style.css" rel="stylesheet">
-		<title>
-			Bookdrops | Europe's #1 Book Subscription - Join Now!
-		</title>
-	</head>
-	<body>
-		<!-- Header -->
-
-		<div class="nav-bg">
-			<header>
-				<!-- Imported and edited from Bootstrap 4 Documentation -->
-
-				<nav class="navbar navbar-expand-sm navbar-dark pt-3 mb-3 container-fluid">
-					<!-- Logo --> <a class="navbar-brand logo" href="#">
-					<p class="logo">
-						book<span>drops</span>
-					</p></a> <!-- Toggler button imported from Bootstrap 4 Documentation and personalised -->
-					 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon d-flex justify-content-center"><i class="fas fa-bars align-self-center"></i></span></button> <!-- Actual Navbar with links -->
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">home</a>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" href="#features">features</a>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" href="#faq">FAQ</a>
-							</li>
-							<!-- Button linking to pricing section at the bottom - Idea taken from Balusc at https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link -->
-
-							<li>
-								<form action="#subscribe" method="get">
-									<button class="btn btn-light mt-auto btn-signup hvr-buzz-out">Subscribe</button>
-								</form>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</header>
-		</div>
-		<!-- Top Banner Content Section -->
-
-		<section class="pb-5">
-			<div class="top-banner">
-				<!-- .top-banner is only the background -->
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 my-auto top-banner-left">
-							<h1 class="mb-3 mt-5">
-								Join bookdrops to receive the best books to your doorstep!
-							</h1>
-
-							<p>
-								Join our ever-growing community, post and read engaging reviews and display your bookshelf to our members.
-							</p>
-
-							<p>
-								Click the below to start enjoying!
-							</p>
-
-							<div class="row justify-content-center">
-								<a href="https://www.apple.com/ie/ios/app-store/" rel="noopener noreferrer" target="_blank"><img alt="iOS Download Link" class="download-badge" src="./assets/images/ios-app-store-badge.png"></a> <a href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img alt="Android Download Link" class="download-badge" src="./assets/images/google-play-badge.png"></a>
-							</div>
-						</div>
-
-						<div class="col-md-6 my-5 d-flex justify-content-center">
-							<img alt="Dropbooks main screen example" id="top-banner-mockup" src="./assets/images/bookdrops-mock-main-screen.png">
-						</div>
-					</div>
+	<script crossorigin="anonymous" src="https://kit.fontawesome.com/d972b5bebb.js">
+	</script><!-- Hover CSS Import -->
+	<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" rel="stylesheet"><!-- My CSS Stylesheet -->
+	<link href="./assets/css/style.css" rel="stylesheet">
+	<title>Bookdrops | Europe's #1 Book Subscription - Join Now!</title>
+</head>
+<body>
+	<!-- Header -->
+	<div class="nav-bg">
+		<header>
+			<!-- Imported and edited from Bootstrap 4 Documentation -->
+			<nav class="navbar navbar-expand-sm navbar-dark pt-3 mb-3 container-fluid">
+				<!-- Logo --> <a class="navbar-brand logo" href="#">
+				<p class="logo">book<span>drops</span></p></a> <!-- Toggler button imported from Bootstrap 4 Documentation and personalised -->
+				 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon d-flex justify-content-center"><i class="fas fa-bars align-self-center"></i></span></button> <!-- Actual Navbar with links -->
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#features">features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#faq">FAQ</a>
+						</li><!-- Button linking to pricing section at the bottom - Idea taken from Balusc at https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link -->
+						<li>
+							<form action="#subscribe" method="get">
+								<button class="btn btn-light mt-auto btn-signup hvr-buzz-out">Subscribe</button>
+							</form>
+						</li>
+					</ul>
 				</div>
-			</div>
-		</section>
-		<!-- Features Section -->
-
-		<section class="py-5 gray-bg">
-			<a id="features"></a>
+			</nav>
+		</header>
+	</div><!-- Top Banner Content Section -->
+	<section class="pb-5">
+		<div class="top-banner">
+			<!-- .top-banner is only the background -->
 			<div class="container">
-				<div class="row mb-3">
-					<h2 class="mx-3">
-						How it works
-					</h2>
-				</div>
-
 				<div class="row">
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Profile Icon" src="./assets/images/icons/profile.png">
-							</div>
-
-							<div class="col-8 border-left">
-								<h5>
-									Your Profile
-								</h5>
-
-								<p class="feature-p">
-									Create your profile, show us your interests and tell us what you enjoy reading.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Fine-Tuning Icon" src="./assets/images/icons/choose.png">
-							</div>
-
-							<div class="col-8 border-left pt-2">
-								<h5>
-									You're in Control
-								</h5>
-
-								<p class="feature-p">
-									Fine-tune the suggestions through your interests, reviews and books read.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Gift box Icon" src="./assets/images/icons/gift-box.png">
-							</div>
-
-							<div class="col-8 border-left pt-2">
-								<h5>
-									To Your Doorstep
-								</h5>
-
-								<p class="feature-p">
-									Fresh books delivered directly to your address.<br>
-									A new surprise every month!
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Bookshelf Icon" src="./assets/images/icons/books.png">
-							</div>
-
-							<div class="col-8 border-left pt-2">
-								<h5>
-									Your Bookshelf
-								</h5>
-
-								<p class="feature-p">
-									Build your online bookshelf and show your collection to the community.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Reviews Icon" src="./assets/images/icons/review.png">
-							</div>
-
-							<div class="col-8 border-left pt-2">
-								<h5>
-									Your Point of View
-								</h5>
-
-								<p class="feature-p">
-									Review the books you've read and also read and interact with other user's reviews.
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-4 my-3 feature-card">
-						<div class="row">
-							<div class="col align-self-center d-flex justify-content-center">
-								<img alt="Community Icon" src="./assets/images/icons/feedback.png">
-							</div>
-
-							<div class="col-8 border-left pt-2">
-								<h5>
-									Community-Driven
-								</h5>
-
-								<p class="feature-p">
-									Join discussion and study groups, build a reputation and become a specialist.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Reading genres -->
-
-		<section class="my-5">
-			<div class="container">
-				<div class="row align-items-center">
-					<!-- Genres - on mobile devices this will be on top, medium devices on the right -->
-
-					<div class="col-md-6 col-sm-12 order-md-12 my-4">
-						<!-- rows with genres -->
-
-						<div class="row mx-4 mb-3" id="genres-text">
-							<h2 class="mb-2">
-								What do you want to read about?
-							</h2>
-
-							<p>
-								Bookdrops has the perfect type of book for you, from the Best Sellers to the Hidden Gems!
-							</p>
-						</div>
-
-						<div class="row justify-content-center text-center">
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-heart fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Romance
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-chess-rook fa-2x"></i>
-								</div>
-
-								<p class="small">
-									History
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-user-secret fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Policial
-								</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center text-center">
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-pray fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Religious
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-hand-holding-medical fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Self-help
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-graduation-cap fa-2x"></i>
-								</div>
-
-								<p class="small genre-p">
-									Academic
-								</p>
-							</div>
-						</div>
-
-						<div class="row justify-content-center text-center">
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-hat-wizard fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Fantasy
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-rocket fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Sci-Fi
-								</p>
-							</div>
-
-							<div class="col-xs-4 mx-4">
-								<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
-									<i class="fas fa-feather-alt fa-2x"></i>
-								</div>
-
-								<p class="small">
-									Poetry
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- Tablet mockup -->
-
-					<div class="col-md-6 col-sm-12 order-md-1">
-						<img alt="Dropbooks tablet" id="genre-tablet" src="./assets/images/bookdrops-mock-ipad.png">
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- FAQ -->
-
-		<section class="py-5 gray-bg">
-			<a id="faq"></a>
-			<div class="container">
-				<div class="row pb-3">
-					<h2 class="px-3">
-						Frequently Asked Questions
-					</h2>
-				</div>
-				<!-- Imported from Bootstrap 4 Docs and edited -->
-
-				<div id="accordion">
-					<!-- FAQ 1 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="headingOne">
-							<h5 class="mb-0">
-								<button aria-controls="collapseOne" aria-expanded="false" class="btn btn-link" data-target="#collapseOne" data-toggle="collapse">What is Bookdrops?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="headingOne" class="collapse" data-parent="#accordion" id="collapseOne">
-							<div class="card-body">
-								<p>
-									Bookdrops is a new book subscription.
-								</p>
-
-								<p>
-									We deliver meaningful and engaging books to your doorstep and we're sure all of them will keep you hooked!
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 2 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTwo" data-toggle="collapse">What will I receive?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="headingTwo" class="collapse" data-parent="#accordion" id="collapseTwo">
-							<div class="card-body">
-								<p>
-									Every first week of the month you will receive at least one book picked by us but based on your profile and interactions in the app.
-								</p>
-
-								<p>
-									If you're a Premium Member, you will also get a small gift with your book!
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 3 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseThree" data-toggle="collapse">Can I choose my next book?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="headingThree" class="collapse" data-parent="#accordion" id="collapseThree">
-							<div class="card-body">
-								<p>
-									Unfortunatelly no. That goes agains the purpose of the subscription model which is to stimulate your curiosity with new autors and genres.
-								</p>
-
-								<p>
-									Note that the books are always based on your profile, so the more you tell us about yourself the better!
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 4 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="heading4">
-							<h5 class="mb-0">
-								<button aria-controls="collapse4" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse4" data-toggle="collapse">What if I already own that book?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="heading4" class="collapse" data-parent="#accordion" id="collapse4">
-							<div class="card-body">
-								<p>
-									If you have received a book that you already own, please <a href="mailto:help@bookdrops.ie" target="_blank">send us an email</a> or <a data-target="#modal-contact" data-toggle="modal" href="#faq">click here</a> to contact us with more information and we will do our best to send you a different one.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 5 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="heading5">
-							<h5 class="mb-0">
-								<button aria-controls="collapse5" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse5" data-toggle="collapse">How can I pay for my subscription?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="heading5" class="collapse" data-parent="#accordion" id="collapse5">
-							<div class="card-body">
-								<p>
-									You can pay for it using Credit card, Debit Card and Paypal.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 6 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="heading6">
-							<h5 class="mb-0">
-								<button aria-controls="collapse6" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse6" data-toggle="collapse">Do you ship internationally?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="heading6" class="collapse" data-parent="#accordion" id="collapse6">
-							<div class="card-body">
-								<p>
-									Definetly yes! We deliver worldwide, however, if you are outside Europe an additional delivery fee will be charged.
-								</p>
-
-								<p>
-									Note that shipping internationally tipically takes a little longer depending where you are.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 8 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="heading8">
-							<h5 class="mb-0">
-								<button aria-controls="collapse8" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse8" data-toggle="collapse">Can I change my address?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="heading8" class="collapse" data-parent="#accordion" id="collapse8">
-							<div class="card-body">
-								<p>
-									Definetly, yes! You can change your address at any moment through your profile.
-								</p>
-
-								<p>
-									Please note that if your delivery is in shown as "in progress" we cannot change your address and advise you to contact the carrier instead.
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- FAQ 7 -->
-
-					<div class="card my-1">
-						<div class="card-header" id="heading7">
-							<h5 class="mb-0">
-								<button aria-controls="collapse7" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse7" data-toggle="collapse">Can I return the books?</button>
-							</h5>
-						</div>
-
-						<div aria-labelledby="heading7" class="collapse" data-parent="#accordion" id="collapse7">
-							<div class="card-body">
-								<p>
-									Unfortunatelly no. We have a No Refunds and No Returns policy.
-								</p>
-
-								<p>
-									If you did not like the book we sent you, feel free to leave your review explaining why and please mark this as a "disliked" book so we can fine-tune our next recommentdations.
-								</p>
-
-								<p>
-									In case the book or gift received were damaged or if you already owned that book, please <a href="mailto:help@bookdrops.ie" target="_blank">send us an email</a> or <a data-target="#modal-contact" data-toggle="modal" href="#faq">click here</a> to contact us and we will do our best to send you a new one as soon as possible.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Pricing/Plans -->
-
-		<section class="my-5">
-			<a id="subscribe"></a>
-			<div class="container">
-				<div class="row mb-5">
-					<h2 class="px-3">
-						Pricing
-					</h2>
-				</div>
-				<!-- Cards imported from Bootstrap examples -->
-
-				<div class="card-deck mb-3 text-center">
-					<div class="card mb-4 grow">
-						<div class="card-header price-card">
-							<h4 class="my-0 font-weight-normal">
-								Free
-							</h4>
-						</div>
-
-						<div class="card-body d-flex flex-column">
-							<h1 class="card-title pricing-card-title mb-0">
-								€ 0 <small class="text-muted">/ mo</small>
-							</h1>
-
-							<p class="small text-muted border-bottom pb-3">
-								Read-Only
-							</p>
-
-							<ul class="list-unstyled my-auto">
-								<li class="my-1">Create and Manage your Profile
-								</li>
-
-								<li class="my-1">Read Reviews
-								</li>
-
-								<li class="my-1">Read Discussion Groups
-								</li>
-
-								<li class="my-1">Purchase Individual 'Books
-								</li>
-							</ul>
-							<!-- Button to trigger modal Imported from Bootstrap Documentation-->
-							<button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Start for Free</button>
-						</div>
-					</div>
-
-					<div class="card mb-4 grow">
-						<div class="card-header price-card">
-							<h4 class="my-0 font-weight-normal">
-								Monthly
-							</h4>
-						</div>
-
-						<div class="card-body d-flex flex-column">
-							<h1 class="card-title pricing-card-title mb-0">
-								$18 <small class="text-muted">/ mo</small>
-							</h1>
-
-							<p class="small text-muted border-bottom pb-3">
-								Billed Monthly
-							</p>
-
-							<ul class="list-unstyled my-auto">
-								<li class="my-1">All 'Free' Benefits
-								</li>
-
-								<li class="my-1">One Book Monthly
-								</li>
-
-								<li class="my-1">Free Delivery<span class="text-muted small">*</span>
-								</li>
-
-								<li class="my-1">Publish Book Reviews
-								</li>
-
-								<li class="my-1">Participate in Discussion Groups
-								</li>
-
-								<li class="my-1">Follow Other Users
-								</li>
-
-								<li class="my-1">Build your Bookshelf
-								</li>
-
-								<li class="small text-muted my-4">*Free Delivery Within EU Countries
-								</li>
-							</ul>
-							<button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Subscribe</button>
-						</div>
-					</div>
-
-					<div class="card mb-4 grow">
-						<div class="card-header price-card">
-							<h4 class="my-0 font-weight-normal">
-								Premium
-							</h4>
-						</div>
-
-						<div class="card-body d-flex flex-column">
-							<h1 class="card-title pricing-card-title mb-0">
-								$24 <small class="text-muted">/ mo</small>
-							</h1>
-
-							<p class="small text-muted border-bottom pb-3">
-								Billed Yearly
-							</p>
-
-							<ul class="list-unstyled my-auto">
-								<li class="my-1">All 'Monthly' Benefits
-								</li>
-
-								<li class="my-1">Up to Two Books Monthly<span class="text-muted small">*</span>
-								</li>
-
-								<li class="my-1">Surprise Gift with your Books
-								</li>
-
-								<li class="my-1">Premium Badge on Your Profile
-								</li>
-
-								<li class="my-1">Priority User Support
-								</li>
-
-								<li class="small text-muted mt-4">*Depending on Number of Pages and<br>
-									Need for an Additional Book
-								</li>
-							</ul>
-							<button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Subscribe</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Footer -->
-
-		<footer class="pt-5 py-3">
-			<div class="container">
-				<div class="row justify-content-between">
-					<!-- Footer Left - Logo and Institutional text -->
-
-					<div class="col-md-4 my-auto px-4 justify-content-center">
-						<a href="#">
-						<p class="logo">
-							book<span>drops</span>
-						</p></a>
-						<p class="pb-3" id="footer-p">
-							bookdrops is the best book subscription program available worldwide, famously known for the strong community and happy customers.<br>
-							What are you waiting for? Join bookdrops now!
-						</p>
-					</div>
-					<!-- Footer Middle - Download and Newsletter -->
-
-					<div class="col-md-4 my-auto d-flex flex-column">
-						<div class="row justify-content-center footer-downloads">
-							<a class="mx-2 my-2" href="https://www.apple.com/ie/ios/app-store/" rel="noopener noreferrer" target="_blank"><img alt="Download bookdrops on the App Store" class="download-badge" src="./assets/images/ios-app-store-badge.png"></a> <a class="mx-2 my-2" href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img alt="Get bookdrops on Google Play" class="download-badge" src="./assets/images/google-play-badge.png"></a>
-						</div>
-
+					<div class="col-md-6 my-auto top-banner-left">
+						<h1 class="mb-3 mt-5">Join bookdrops to receive the best books to your doorstep!</h1>
+						<p>Join our ever-growing community, post and read engaging reviews and display your bookshelf to our members.</p>
+						<p>Click the below to start enjoying!</p>
 						<div class="row justify-content-center">
-							<p class="small text-center">
-								Join our Newsletter for weekly<br>
-								reading recommendations:
-							</p>
-
-							<div class="input-group mb-3 mx-5">
-								<input aria-label="Newsletter Email" class="form-control form-control-sm" placeholder="Your Best Email" type="text">
-								<div class="input-group-append">
-									<button class="btn btn-dark btn-sm btn-newsletter" type="button">Join</button>
-								</div>
-							</div>
+							<a href="https://www.apple.com/ie/ios/app-store/" rel="noopener noreferrer" target="_blank"><img alt="iOS Download Link" class="download-badge" src="./assets/images/ios-app-store-badge.png"></a> <a href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img alt="Android Download Link" class="download-badge" src="./assets/images/google-play-badge.png"></a>
 						</div>
 					</div>
-					<!-- Footer navigation links -->
-
-					<div class="col-md-4 text-center my-auto nav-footer navbar-light footer-item">
-						<ul class="navbar-nav" id="footer-nav">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" href="#features">Features</a>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" href="#faq">FAQ</a>
-							</li>
-							<!-- Modal Trigger Imported from Bootstrap Documentation adapted to nav link-->
-
-							<li class="nav-item">
-								<a class="nav-link" href="#Subscribe">Subscribe</a>
-							</li>
-
-							<li class="nav-item">
-								<a class="nav-link" data-target="#modal-contact" data-toggle="modal">Contact Us</a>
-							</li>
-
-							<li class="my-2">Follow us for more:
-							</li>
-
-							<li>
-								<!-- Social icons -->
-								 <a href="https://medium.com/" target="_blank">
-									<i aria-hidden="true" class="fab fa-medium-m fa-lg mx-2"></i>
-									<span class="sr-only">Medium</span>
-								</a> 
-								<a href="https://www.youtube.com/" target="_blank">
-									<i aria-hidden="true" class="fab fa-youtube fa-lg mx-2"></i> 
-									<span class="sr-only">Youtube</span>
-								</a> 
-								<a href="https://www.facebook.com/" target="_blank">
-									<i aria-hidden="true" class="fa fa-facebook fa-lg mx-2"></i> 
-									<span class="sr-only">Facebook</span>
-								</a> 
-								<a href="https://www.instagram.com/" target="_blank">
-									<i aria-hidden="true" class="fa fa-instagram fa-lg mx-2"></i> 
-									<span class="sr-only">Instagram</span>
-								</a> 
-								<a href="https://www.github.com/" target="_blank">
-									<i aria-hidden="true" class="fa fa-github fa-lg mx-2"></i> 
-									<span class="sr-only">Github</span>
-								</a>
-							</li>
-						</ul>
-					</div>
+					<div class="col-md-6 my-5 d-flex justify-content-center"><img alt="Dropbooks main screen example" id="top-banner-mockup" src="./assets/images/bookdrops-mock-main-screen.png"></div>
 				</div>
 			</div>
-		</footer>
-
-		<div class="container-fluid my-0" id="copyright">
+		</div>
+	</section><!-- Features Section -->
+	<section class="py-5 gray-bg">
+		<a id="features"></a>
+		<div class="container">
+			<div class="row mb-3">
+				<h2 class="mx-3">How it works</h2>
+			</div>
 			<div class="row">
-				<div class="col-12 text-center small text-muted pt-2">
-					<p>Copyright © 2020 Bookdrops. All Rights Reserved - Made with ♥ by <a href="https://www.linkedin.com/in/mariogusman/" id="mario" target="_blank" rel="noopener noreferrer">Mario Gusman</a> </p>
-				</div>
-			</div>
-		</div>
-		<!-- Modals -->
-		<!-- Modal body Imported from Bootstrap Documentation and personalised -->
-
-		<!-- Subscribe modal -->
-		<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1"><!-- Signup Modal -->
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLongTitle">
-							Create Your Account
-						</h5>
-						<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
-					</div>
-
-					<!-- Modal Body -->
-					<form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net/"></form>
-						<div class="modal-body text-left">						
-							<div>								
-								<div class="input-group mb-3"><!-- Name Field -->
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-user"></i></span>
-									</div>
-									<input id="subscribe-name" name="subscribe-name" aria-label="Name" class="form-control" placeholder="Your Name" required type="text">
-								</div>
-
-								<div class="input-group mb-3"><!-- Email Field -->
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="far fa-envelope"></i></span>
-									</div>
-									<input id="subscribe-email" name="subscribe-email" aria-label="Email" class="form-control" placeholder="your@email.com" required type="email">
-								</div>
-
-								<div class="input-group mb-3"><!-- Password -->
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-key"></i></span>
-									</div>
-									<input id="subscribe-password" name="subscribe-password" aria-label="Password" class="form-control" placeholder="Password" required type="password">
-								</div>
-
-								<div class="form-check"><!-- Checkboxes -->
-									<input class="form-check-input ml-1" id="remember" name="remember" type="checkbox" value="remember" form="subscribe-form"> <label class="form-check-label ml-4" for="remember"><small>Remember me</small></label><br>
-									<input class="form-check-input ml-1" id="join-news" type="checkbox" value="join-news"  form="subscribe-form"> <label class="form-check-label ml-4" for="remember"><small>Join Newsletter</small></label>
-								</div>
-
-								<p class="small text-muted ml-4 mt-2"><!-- TOS -->
-									By creating an account you agree to our <a data-target="#tos-modal" data-toggle="modal"><u>Terms of Service</u></a>.
-									
-								</p>								
-							</div>
-
-							<div class="modal-footer"><!-- Footer buttons -->
-								<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> 
-								<button class="btn btn-success" type="submit">Send</button>
-							</div>
-						
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Profile Icon" src="./assets/images/icons/profile.png"></div>
+						<div class="col-8 border-left">
+							<h5>Your Profile</h5>
+							<p class="feature-p">Create your profile, show us your interests and tell us what you enjoy reading.</p>
 						</div>
-					</form>
+					</div>
 				</div>
-			</div>
-		</div>
-		
-		<div aria-hidden="true" aria-labelledby="tos-modalTitle" class="modal fade" id="tos-modal" role="dialog" tabindex="-2"> <!-- TOS Modal -->
-
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="tos-modalLongTitle">
-							Bookdrops Terms of Service
-						</h5>
-						<button class="btn btn-secondary btn-small" data-dismiss="modal" type="button">Close</button>
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Fine-Tuning Icon" src="./assets/images/icons/choose.png"></div>
+						<div class="col-8 border-left pt-2">
+							<h5>You're in Control</h5>
+							<p class="feature-p">Fine-tune the suggestions through your interests, reviews and books read.</p>
+						</div>
 					</div>
-					<!-- Modal Body -->
-
-					<div class="modal-body text-justify my-3 mx-2">
-						<!-- TOS Generated on www.termsofservicegenerator.net/ -->
-
-						<h3 class="my-3">
-							Website Terms and Conditions of Use
-						</h3>
-
-						<h4 class="my-3">
-							1. Terms
-						</h4>
-
-						<p>
-							By accessing this Website, accessible from www.bookdrops.ie, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.
-						</p>
-
-						<h4 class="my-3">
-							2. Use License
-						</h4>
-
-						<p>
-							Permission is granted to temporarily download one copy of the materials on Bookdrops's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
-						</p>
-
-						<ul>
-							<li>modify or copy the materials;
-							</li>
-
-							<li>use the materials for any commercial purpose or for any public display;
-							</li>
-
-							<li>attempt to reverse engineer any software contained on Bookdrops's Website;
-							</li>
-
-							<li>remove any copyright or other proprietary notations from the materials; or
-							</li>
-
-							<li>transferring the materials to another person or "mirror" the materials on any other server.
-							</li>
-						</ul>
-
-						<p>
-							This will let Bookdrops to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.
-						</p>
-
-						<h4 class="my-3">
-							3. Disclaimer
-						</h4>
-
-						<p>
-							All the materials on Bookdrops’s Website are provided "as is". Bookdrops makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Bookdrops does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.
-						</p>
-
-						<h4 class="my-3">
-							4. Limitations
-						</h4>
-
-						<p>
-							Bookdrops or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Bookdrops’s Website, even if Bookdrops or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.
-						</p>
-
-						<h4 class="my-3">
-							5. Revisions and Errata
-						</h4>
-
-						<p>
-							The materials appearing on Bookdrops’s Website may include technical, typographical, or photographic errors. Bookdrops will not promise that any of the materials in this Website are accurate, complete, or current. Bookdrops may change the materials contained on its Website at any time without notice. Bookdrops does not make any commitment to update the materials.
-						</p>
-
-						<h4 class="my-3">
-							6. Links
-						</h4>
-
-						<p>
-							Bookdrops has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Bookdrops of the site. The use of any linked website is at the user’s own risk.
-						</p>
-
-						<h4 class="my-3">
-							7. Site Terms of Use Modifications
-						</h4>
-
-						<p>
-							Bookdrops may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.
-						</p>
-
-						<h4 class="my-3">
-							8. Your Privacy
-						</h4>
-
-						<p>
-							Please read our Privacy Policy.
-						</p>
-
-						<h4 class="my-3">
-							9. Governing Law
-						</h4>
-
-						<p>
-							Any claim related to Bookdrops's Website shall be governed by the laws of ie without regards to its conflict of law provisions.
-						</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Gift box Icon" src="./assets/images/icons/gift-box.png"></div>
+						<div class="col-8 border-left pt-2">
+							<h5>To Your Doorstep</h5>
+							<p class="feature-p">Fresh books delivered directly to your address.<br>
+							A new surprise every month!</p>
+						</div>
 					</div>
-
-					<div class="modal-footer">
-						<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+				</div>
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Bookshelf Icon" src="./assets/images/icons/books.png"></div>
+						<div class="col-8 border-left pt-2">
+							<h5>Your Bookshelf</h5>
+							<p class="feature-p">Build your online bookshelf and show your collection to the community.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Reviews Icon" src="./assets/images/icons/review.png"></div>
+						<div class="col-8 border-left pt-2">
+							<h5>Your Point of View</h5>
+							<p class="feature-p">Review the books you've read and also read and interact with other user's reviews.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-4 my-3 feature-card">
+					<div class="row">
+						<div class="col align-self-center d-flex justify-content-center"><img alt="Community Icon" src="./assets/images/icons/feedback.png"></div>
+						<div class="col-8 border-left pt-2">
+							<h5>Community-Driven</h5>
+							<p class="feature-p">Join discussion and study groups, build a reputation and become a specialist.</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		<div class="modal fade" id="modal-contact" role="dialog" tabindex="-1"> <!-- Contact Modal -->
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">
-							Contact Us
-						</h5>
-						<button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+	</section><!-- Reading genres -->
+	<section class="my-5">
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Genres - on mobile devices this will be on top, medium devices on the right -->
+				<div class="col-md-6 col-sm-12 order-md-12 my-4">
+					<!-- rows with genres -->
+					<div class="row mx-4 mb-3" id="genres-text">
+						<h2 class="mb-2">What do you want to read about?</h2>
+						<p>Bookdrops has the perfect type of book for you, from the Best Sellers to the Hidden Gems!</p>
 					</div>
+					<div class="row justify-content-center text-center">
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-heart fa-2x"></i>
+							</div>
+							<p class="small">Romance</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-chess-rook fa-2x"></i>
+							</div>
+							<p class="small">History</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-user-secret fa-2x"></i>
+							</div>
+							<p class="small">Policial</p>
+						</div>
+					</div>
+					<div class="row justify-content-center text-center">
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-pray fa-2x"></i>
+							</div>
+							<p class="small">Religious</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-hand-holding-medical fa-2x"></i>
+							</div>
+							<p class="small">Self-help</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-graduation-cap fa-2x"></i>
+							</div>
+							<p class="small genre-p">Academic</p>
+						</div>
+					</div>
+					<div class="row justify-content-center text-center">
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-hat-wizard fa-2x"></i>
+							</div>
+							<p class="small">Fantasy</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-rocket fa-2x"></i>
+							</div>
+							<p class="small">Sci-Fi</p>
+						</div>
+						<div class="col-xs-4 mx-4">
+							<div class="genre-box hvr-glow d-flex justify-content-center align-items-center">
+								<i class="fas fa-feather-alt fa-2x"></i>
+							</div>
+							<p class="small">Poetry</p>
+						</div>
+					</div>
+				</div><!-- Tablet mockup -->
+				<div class="col-md-6 col-sm-12 order-md-1"><img alt="Dropbooks tablet" id="genre-tablet" src="./assets/images/bookdrops-mock-ipad.png"></div>
+			</div>
+		</div>
+	</section><!-- FAQ -->
+	<section class="py-5 gray-bg">
+		<a id="faq"></a>
+		<div class="container">
+			<div class="row pb-3">
+				<h2 class="px-3">Frequently Asked Questions</h2>
+			</div><!-- Imported from Bootstrap 4 Docs and edited -->
+			<div id="accordion">
+				<!-- FAQ 1 -->
+				<div class="card my-1">
+					<div class="card-header" id="headingOne">
+						<h5 class="mb-0"><button aria-controls="collapseOne" aria-expanded="false" class="btn btn-link" data-target="#collapseOne" data-toggle="collapse">What is Bookdrops?</button></h5>
+					</div>
+					<div aria-labelledby="headingOne" class="collapse" data-parent="#accordion" id="collapseOne">
+						<div class="card-body">
+							<p>Bookdrops is a new book subscription.</p>
+							<p>We deliver meaningful and engaging books to your doorstep and we're sure all of them will keep you hooked!</p>
+						</div>
+					</div>
+				</div><!-- FAQ 2 -->
+				<div class="card my-1">
+					<div class="card-header" id="headingTwo">
+						<h5 class="mb-0"><button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseTwo" data-toggle="collapse">What will I receive?</button></h5>
+					</div>
+					<div aria-labelledby="headingTwo" class="collapse" data-parent="#accordion" id="collapseTwo">
+						<div class="card-body">
+							<p>Every first week of the month you will receive at least one book picked by us but based on your profile and interactions in the app.</p>
+							<p>If you're a Premium Member, you will also get a small gift with your book!</p>
+						</div>
+					</div>
+				</div><!-- FAQ 3 -->
+				<div class="card my-1">
+					<div class="card-header" id="headingThree">
+						<h5 class="mb-0"><button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapseThree" data-toggle="collapse">Can I choose my next book?</button></h5>
+					</div>
+					<div aria-labelledby="headingThree" class="collapse" data-parent="#accordion" id="collapseThree">
+						<div class="card-body">
+							<p>Unfortunatelly no. That goes agains the purpose of the subscription model which is to stimulate your curiosity with new autors and genres.</p>
+							<p>Note that the books are always based on your profile, so the more you tell us about yourself the better!</p>
+						</div>
+					</div>
+				</div><!-- FAQ 4 -->
+				<div class="card my-1">
+					<div class="card-header" id="heading4">
+						<h5 class="mb-0"><button aria-controls="collapse4" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse4" data-toggle="collapse">What if I already own that book?</button></h5>
+					</div>
+					<div aria-labelledby="heading4" class="collapse" data-parent="#accordion" id="collapse4">
+						<div class="card-body">
+							<p>If you have received a book that you already own, please <a href="mailto:help@bookdrops.ie" target="_blank">send us an email</a> or <a data-target="#modal-contact" data-toggle="modal" href="#faq">click here</a> to contact us with more information and we will do our best to send you a different one.</p>
+						</div>
+					</div>
+				</div><!-- FAQ 5 -->
+				<div class="card my-1">
+					<div class="card-header" id="heading5">
+						<h5 class="mb-0"><button aria-controls="collapse5" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse5" data-toggle="collapse">How can I pay for my subscription?</button></h5>
+					</div>
+					<div aria-labelledby="heading5" class="collapse" data-parent="#accordion" id="collapse5">
+						<div class="card-body">
+							<p>You can pay for it using Credit card, Debit Card and Paypal.</p>
+						</div>
+					</div>
+				</div><!-- FAQ 6 -->
+				<div class="card my-1">
+					<div class="card-header" id="heading6">
+						<h5 class="mb-0"><button aria-controls="collapse6" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse6" data-toggle="collapse">Do you ship internationally?</button></h5>
+					</div>
+					<div aria-labelledby="heading6" class="collapse" data-parent="#accordion" id="collapse6">
+						<div class="card-body">
+							<p>Definetly yes! We deliver worldwide, however, if you are outside Europe an additional delivery fee will be charged.</p>
+							<p>Note that shipping internationally tipically takes a little longer depending where you are.</p>
+						</div>
+					</div>
+				</div><!-- FAQ 8 -->
+				<div class="card my-1">
+					<div class="card-header" id="heading8">
+						<h5 class="mb-0"><button aria-controls="collapse8" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse8" data-toggle="collapse">Can I change my address?</button></h5>
+					</div>
+					<div aria-labelledby="heading8" class="collapse" data-parent="#accordion" id="collapse8">
+						<div class="card-body">
+							<p>Definetly, yes! You can change your address at any moment through your profile.</p>
+							<p>Please note that if your delivery is in shown as "in progress" we cannot change your address and advise you to contact the carrier instead.</p>
+						</div>
+					</div>
+				</div><!-- FAQ 7 -->
+				<div class="card my-1">
+					<div class="card-header" id="heading7">
+						<h5 class="mb-0"><button aria-controls="collapse7" aria-expanded="false" class="btn btn-link collapsed" data-target="#collapse7" data-toggle="collapse">Can I return the books?</button></h5>
+					</div>
+					<div aria-labelledby="heading7" class="collapse" data-parent="#accordion" id="collapse7">
+						<div class="card-body">
+							<p>Unfortunatelly no. We have a No Refunds and No Returns policy.</p>
+							<p>If you did not like the book we sent you, feel free to leave your review explaining why and please mark this as a "disliked" book so we can fine-tune our next recommentdations.</p>
+							<p>In case the book or gift received were damaged or if you already owned that book, please <a href="mailto:help@bookdrops.ie" target="_blank">send us an email</a> or <a data-target="#modal-contact" data-toggle="modal" href="#faq">click here</a> to contact us and we will do our best to send you a new one as soon as possible.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Pricing/Plans -->
+	<section class="my-5">
+		<a id="subscribe"></a>
+		<div class="container">
+			<div class="row mb-5">
+				<h2 class="px-3">Pricing</h2>
+			</div><!-- Cards imported from Bootstrap examples -->
+			<div class="card-deck mb-3 text-center">
+				<div class="card mb-4 grow">
+					<div class="card-header price-card">
+						<h4 class="my-0 font-weight-normal">Free</h4>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h1 class="card-title pricing-card-title mb-0">€ 0 <small class="text-muted">/ mo</small></h1>
+						<p class="small text-muted border-bottom pb-3">Read-Only</p>
+						<ul class="list-unstyled my-auto">
+							<li class="my-1">Create and Manage your Profile</li>
+							<li class="my-1">Read Reviews</li>
+							<li class="my-1">Read Discussion Groups</li>
+							<li class="my-1">Purchase Individual 'Books</li>
+						</ul><!-- Button to trigger modal Imported from Bootstrap Documentation-->
+						<button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Start for Free</button>
+					</div>
+				</div>
+				<div class="card mb-4 grow">
+					<div class="card-header price-card">
+						<h4 class="my-0 font-weight-normal">Monthly</h4>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h1 class="card-title pricing-card-title mb-0">$18 <small class="text-muted">/ mo</small></h1>
+						<p class="small text-muted border-bottom pb-3">Billed Monthly</p>
+						<ul class="list-unstyled my-auto">
+							<li class="my-1">All 'Free' Benefits</li>
+							<li class="my-1">One Book Monthly</li>
+							<li class="my-1">Free Delivery<span class="text-muted small">*</span></li>
+							<li class="my-1">Publish Book Reviews</li>
+							<li class="my-1">Participate in Discussion Groups</li>
+							<li class="my-1">Follow Other Users</li>
+							<li class="my-1">Build your Bookshelf</li>
+							<li class="small text-muted my-4">*Free Delivery Within EU Countries</li>
+						</ul><button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Subscribe</button>
+					</div>
+				</div>
+				<div class="card mb-4 grow">
+					<div class="card-header price-card">
+						<h4 class="my-0 font-weight-normal">Premium</h4>
+					</div>
+					<div class="card-body d-flex flex-column">
+						<h1 class="card-title pricing-card-title mb-0">$24 <small class="text-muted">/ mo</small></h1>
+						<p class="small text-muted border-bottom pb-3">Billed Yearly</p>
+						<ul class="list-unstyled my-auto">
+							<li class="my-1">All 'Monthly' Benefits</li>
+							<li class="my-1">Up to Two Books Monthly<span class="text-muted small">*</span></li>
+							<li class="my-1">Surprise Gift with your Books</li>
+							<li class="my-1">Premium Badge on Your Profile</li>
+							<li class="my-1">Priority User Support</li>
+							<li class="small text-muted mt-4">*Depending on Number of Pages and<br>
+							Need for an Additional Book</li>
+						</ul><button class="btn btn-dark mt-auto btn-signup sign-up-modal-button hvr-buzz-out py-3" data-target="#exampleModalCenter" data-toggle="modal" type="button">Subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Footer -->
+	<footer class="pt-5 py-3">
+		<div class="container">
+			<div class="row justify-content-between">
+				<!-- Footer Left - Logo and Institutional text -->
+				<div class="col-md-4 my-auto px-4 justify-content-center">
+					<a href="#">
+					<p class="logo">book<span>drops</span></p></a>
+					<p class="pb-3" id="footer-p">bookdrops is the best book subscription program available worldwide, famously known for the strong community and happy customers.<br>
+					What are you waiting for? Join bookdrops now!</p>
+				</div><!-- Footer Middle - Download and Newsletter -->
+				<div class="col-md-4 my-auto d-flex flex-column">
+					<div class="row justify-content-center footer-downloads">
+						<a class="mx-2 my-2" href="https://www.apple.com/ie/ios/app-store/" rel="noopener noreferrer" target="_blank"><img alt="Download bookdrops on the App Store" class="download-badge" src="./assets/images/ios-app-store-badge.png"></a> <a class="mx-2 my-2" href="https://play.google.com/store" rel="noopener noreferrer" target="_blank"><img alt="Get bookdrops on Google Play" class="download-badge" src="./assets/images/google-play-badge.png"></a>
+					</div>
+					<div class="row justify-content-center">
+						<p class="small text-center">Join our Newsletter for weekly<br>
+						reading recommendations:</p>
+						<div class="input-group mb-3 mx-5">
+							<input aria-label="Newsletter Email" class="form-control form-control-sm" placeholder="Your Best Email" type="text">
+							<div class="input-group-append">
+								<button class="btn btn-dark btn-sm btn-newsletter" type="button">Join</button>
+							</div>
+						</div>
+					</div>
+				</div><!-- Footer navigation links -->
+				<div class="col-md-4 text-center my-auto nav-footer navbar-light footer-item">
+					<ul class="navbar-nav" id="footer-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#features">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#faq">FAQ</a>
+						</li><!-- Modal Trigger Imported from Bootstrap Documentation adapted to nav link-->
+						<li class="nav-item">
+							<a class="nav-link" href="#Subscribe">Subscribe</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-target="#modal-contact" data-toggle="modal">Contact Us</a>
+						</li>
+						<li class="my-2">Follow us for more:</li>
+						<li>
+							<!-- Social icons -->
+							 <a href="https://medium.com/" target="_blank"><i aria-hidden="true" class="fab fa-medium-m fa-lg mx-2"></i> <span class="sr-only">Medium</span></a> <a href="https://www.youtube.com/" target="_blank"><i aria-hidden="true" class="fab fa-youtube fa-lg mx-2"></i> <span class="sr-only">Youtube</span></a> <a href="https://www.facebook.com/" target="_blank"><i aria-hidden="true" class="fa fa-facebook fa-lg mx-2"></i> <span class="sr-only">Facebook</span></a> <a href="https://www.instagram.com/" target="_blank"><i aria-hidden="true" class="fa fa-instagram fa-lg mx-2"></i> <span class="sr-only">Instagram</span></a> <a href="https://www.github.com/" target="_blank"><i aria-hidden="true" class="fa fa-github fa-lg mx-2"></i> <span class="sr-only">Github</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="container-fluid my-0" id="copyright">
+		<div class="row">
+			<div class="col-12 text-center small text-muted pt-2">
+				<p>Copyright © 2020 Bookdrops. All Rights Reserved - Made with ♥ by <a href="https://www.linkedin.com/in/mariogusman/" id="mario" rel="noopener noreferrer" target="_blank">Mario Gusman</a></p>
+			</div>
+		</div>
+	</div><!-- Modals -->
+	<!-- Modal body Imported from Bootstrap Documentation and personalised -->
+	<!-- Subscribe modal -->
+	<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1">
+		<!-- Signup Modal -->
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Create Your Account</h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				</div>
+				
+				<!-- Modal Body -->
+				<form action="https://formdump.codeinstitute.net/" id="subscribe-form" method="post" name="subscribe-form">
+					<div class="modal-body text-left">
+						<div>
+							<div class="input-group mb-3">
+								<!-- Name Field -->
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div><input aria-label="Name" class="form-control" id="subscribe-name" name="subscribe-name" placeholder="Your Name" required type="text">
+							</div>
+							<div class="input-group mb-3">
+								<!-- Email Field -->
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="far fa-envelope"></i></span>
+								</div><input aria-label="Email" class="form-control" id="subscribe-email" name="subscribe-email" placeholder="your@email.com" required type="email">
+							</div>
+							<div class="input-group mb-3">
+								<!-- Password -->
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-key"></i></span>
+								</div><input aria-label="Password" class="form-control" id="subscribe-password" name="subscribe-password" placeholder="Password" required type="password">
+							</div>
+							<div class="form-check">
+								<!-- Checkboxes -->
+								<input class="form-check-input ml-1" form="subscribe-form" id="remember" name="remember" type="checkbox" value="y"> <label class="form-check-label ml-4" for="remember"><small>Remember me</small></label><br>
 
-					<form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-						<div class="modal-body">							
-							<div class="input-group input-group-sm my-1"><!-- Name field -->
-								
-								<div class="input-group-prepend">
-									<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-								</div>
-								<input class="form-control form-control-sm" id="contact-name" placeholder="Your Name" name="contact-name" type="text" required>
+								<input class="form-check-input ml-1" form="subscribe-form" id="join-news" name="join-news" type="checkbox" value="y"> <label class="form-check-label ml-4" for="remember"><small>Join Newsletter</small></label>
 							</div>
-							
-							<div class="input-group input-group-sm my-1"><!-- Email Field -->
-								<div class="input-group-prepend">
-									<span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
-								</div>
-								<input class="form-control form-control-sm" id="contact-email" placeholder="Your Email" name="contact-email" required type="email">
-							</div>
-							
-							<select class="custom-select custom-select-sm my-1" name="issue" id="issue" form="contact-form"><!-- Select Dropdown -->
-								<option selected>
-									Reason for contact
-								</option>
-								<option value="account">
-									Account Issue
-								</option>
-								<option value="payment">
-									Payment
-								</option>
-								<option value="community">
-									Community issues
-								</option>
-								<option value="feedback">
-									Feedback
-								</option>
-								<option value="media">
-									Media/Business
-								</option>
-								<option value="other">
-									Other
-								</option>
-							</select>
-							
-							<div class="input-group input-group-sm my-1"><!-- Text field -->
-								<textarea name="contact-description" form="contact-form" aria-label="textarea" class="form-control form-control-lg" placeholder="Your message here :c)" required></textarea>
-							</div>							
+							<p class="small text-muted ml-4 mt-2"><!-- TOS -->
+							By creating an account you agree to our <a data-target="#tos-modal" data-toggle="modal"><u>Terms of Service</u></a>.</p>
 						</div>
 						<div class="modal-footer">
+							<!-- Footer buttons -->
 							<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> <button class="btn btn-success" type="submit">Send</button>
 						</div>
-					</form>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div aria-hidden="true" aria-labelledby="tos-modalTitle" class="modal fade" id="tos-modal" role="dialog" tabindex="-2">
+		<!-- TOS Modal -->
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="tos-modalLongTitle">Bookdrops Terms of Service</h5><button class="btn btn-secondary btn-small" data-dismiss="modal" type="button">Close</button>
+				</div><!-- Modal Body -->
+				<div class="modal-body text-justify my-3 mx-2">
+					<!-- TOS Generated on www.termsofservicegenerator.net/ -->
+					<h3 class="my-3">Website Terms and Conditions of Use</h3>
+					<h4 class="my-3">1. Terms</h4>
+					<p>By accessing this Website, accessible from www.bookdrops.ie, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+					<h4 class="my-3">2. Use License</h4>
+					<p>Permission is granted to temporarily download one copy of the materials on Bookdrops's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+					<ul>
+						<li>modify or copy the materials;</li>
+						<li>use the materials for any commercial purpose or for any public display;</li>
+						<li>attempt to reverse engineer any software contained on Bookdrops's Website;</li>
+						<li>remove any copyright or other proprietary notations from the materials; or</li>
+						<li>transferring the materials to another person or "mirror" the materials on any other server.</li>
+					</ul>
+					<p>This will let Bookdrops to terminate upon violations of any of these restrictions. Upon termination, your viewing right will also be terminated and you should destroy any downloaded materials in your possession whether it is printed or electronic format. These Terms of Service has been created with the help of the <a href="https://www.termsofservicegenerator.net">Terms Of Service Generator</a> and the <a href="https://www.generateprivacypolicy.com">Privacy Policy Generator</a>.</p>
+					<h4 class="my-3">3. Disclaimer</h4>
+					<p>All the materials on Bookdrops’s Website are provided "as is". Bookdrops makes no warranties, may it be expressed or implied, therefore negates all other warranties. Furthermore, Bookdrops does not make any representations concerning the accuracy or reliability of the use of the materials on its Website or otherwise relating to such materials or any sites linked to this Website.</p>
+					<h4 class="my-3">4. Limitations</h4>
+					<p>Bookdrops or its suppliers will not be hold accountable for any damages that will arise with the use or inability to use the materials on Bookdrops’s Website, even if Bookdrops or an authorize representative of this Website has been notified, orally or written, of the possibility of such damage. Some jurisdiction does not allow limitations on implied warranties or limitations of liability for incidental damages, these limitations may not apply to you.</p>
+					<h4 class="my-3">5. Revisions and Errata</h4>
+					<p>The materials appearing on Bookdrops’s Website may include technical, typographical, or photographic errors. Bookdrops will not promise that any of the materials in this Website are accurate, complete, or current. Bookdrops may change the materials contained on its Website at any time without notice. Bookdrops does not make any commitment to update the materials.</p>
+					<h4 class="my-3">6. Links</h4>
+					<p>Bookdrops has not reviewed all of the sites linked to its Website and is not responsible for the contents of any such linked site. The presence of any link does not imply endorsement by Bookdrops of the site. The use of any linked website is at the user’s own risk.</p>
+					<h4 class="my-3">7. Site Terms of Use Modifications</h4>
+					<p>Bookdrops may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
+					<h4 class="my-3">8. Your Privacy</h4>
+					<p>Please read our Privacy Policy.</p>
+					<h4 class="my-3">9. Governing Law</h4>
+					<p>Any claim related to Bookdrops's Website shall be governed by the laws of ie without regards to its conflict of law provisions.</p>
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
 				</div>
 			</div>
 		</div>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
-		</script> 
-		<script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
-		</script> 
-		<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
-		</script>
-	</body>
+	</div>
+	<div class="modal fade" id="modal-contact" role="dialog" tabindex="-1">
+		<!-- Contact Modal -->
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Contact Us</h5><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<form action="https://formdump.codeinstitute.net/" id="contact-form" method="post" name="contact-form">
+					<div class="modal-body">
+						<div class="input-group input-group-sm my-1">
+							<!-- Name field -->
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+							</div><input class="form-control form-control-sm" id="contact-name" name="contact-name" placeholder="Your Name" required type="text">
+						</div>
+						<div class="input-group input-group-sm my-1">
+							<!-- Email Field -->
+							<div class="input-group-prepend">
+								<span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+							</div><input class="form-control form-control-sm" id="contact-email" name="contact-email" placeholder="Your Email" required type="email">
+						</div><select class="custom-select custom-select-sm my-1" form="contact-form" id="issue" name="issue">
+							<!-- Select Dropdown -->
+							<option selected>
+								Reason for contact
+							</option>
+							<option value="account">
+								Account Issue
+							</option>
+							<option value="payment">
+								Payment
+							</option>
+							<option value="community">
+								Community issues
+							</option>
+							<option value="feedback">
+								Feedback
+							</option>
+							<option value="media">
+								Media/Business
+							</option>
+							<option value="other">
+								Other
+							</option>
+						</select>
+						<div class="input-group input-group-sm my-1">
+							<!-- Text field -->
+							<textarea aria-label="textarea" class="form-control form-control-lg" form="contact-form" name="contact-description" placeholder="Your message here :c)" required></textarea>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> <button class="btn btn-success" type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div><!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script> 
+	<script crossorigin="anonymous" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+	</script> 
+	<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+	</script>
+</body>
 </html>
