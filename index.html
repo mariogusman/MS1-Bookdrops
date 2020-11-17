@@ -751,7 +751,8 @@
 		</div>
 		<!-- Modals -->
 		<!-- Modal body Imported from Bootstrap Documentation and personalised -->
-		
+
+		<!-- Subscribe modal -->
 		<div aria-hidden="true" aria-labelledby="exampleModalCenterTitle" class="modal fade" id="exampleModalCenter" role="dialog" tabindex="-1"><!-- Signup Modal -->
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
@@ -763,7 +764,7 @@
 					</div>
 
 					<!-- Modal Body -->
-					<form id="subscribe-form" action="https://formdump.codeinstitute.net/" method="POST" action="https://formdump.codeinstitute.net/"></form>
+					<form id="subscribe-form" method="POST" action="https://formdump.codeinstitute.net/"></form>
 						<div class="modal-body text-left">						
 							<div>								
 								<div class="input-group mb-3"><!-- Name Field -->
@@ -800,7 +801,7 @@
 
 							<div class="modal-footer"><!-- Footer buttons -->
 								<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> 
-								<button class="btn btn-success" data-dismiss="modal" type="submit">Send</button>
+								<button class="btn btn-success" type="submit">Send</button>
 							</div>
 						
 						</div>
@@ -809,7 +810,8 @@
 			</div>
 		</div>
 		
-		<div aria-hidden="true" aria-labelledby="tos-modalTitle" class="modal fade" id="tos-modal" role="dialog" tabindex="-2">
+		<div aria-hidden="true" aria-labelledby="tos-modalTitle" class="modal fade" id="tos-modal" role="dialog" tabindex="-2"> <!-- TOS Modal -->
+
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -926,10 +928,9 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- TOS Modal -->
-
+		</div>
 		
-		<div class="modal fade" id="modal-contact" role="dialog" tabindex="-1">
+		<div class="modal fade" id="modal-contact" role="dialog" tabindex="-1"> <!-- Contact Modal -->
 			<div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -940,50 +941,49 @@
 					</div>
 
 					<form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-						
 						<div class="modal-body">							
-								<div class="input-group input-group-sm my-1"><!-- Name field -->
-									
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
-									</div>
-									<input class="form-control form-control-sm" id="contact-name" placeholder="Your Name" name="contact-name" type="text" required>
+							<div class="input-group input-group-sm my-1"><!-- Name field -->
+								
+								<div class="input-group-prepend">
+									<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
 								</div>
-								
-								<div class="input-group input-group-sm my-1"><!-- Email Field -->
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
-									</div>
-									<input class="form-control form-control-sm" id="contact-email" placeholder="Your Email" name="contact-email" required type="email">
+								<input class="form-control form-control-sm" id="contact-name" placeholder="Your Name" name="contact-name" type="text" required>
+							</div>
+							
+							<div class="input-group input-group-sm my-1"><!-- Email Field -->
+								<div class="input-group-prepend">
+									<span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
 								</div>
-								
-								<select class="custom-select custom-select-sm my-1" name="issue" id="issue" form="contact-form"><!-- Select Dropdown -->
-									<option selected>
-										Reason for contact
-									</option>
-									<option value="account">
-										Account Issue
-									</option>
-									<option value="payment">
-										Payment
-									</option>
-									<option value="community">
-										Community issues
-									</option>
-									<option value="feedback">
-										Feedback
-									</option>
-									<option value="media">
-										Media/Business
-									</option>
-									<option value="other">
-										Other
-									</option>
-								</select>
-								
-								<div class="input-group input-group-sm my-1"><!-- Text field -->
-									<textarea name="contact-description" form="contact-form" aria-label="textarea" class="form-control form-control-lg" placeholder="Your message here :c)" required></textarea>
-								</div>							
+								<input class="form-control form-control-sm" id="contact-email" placeholder="Your Email" name="contact-email" required type="email">
+							</div>
+							
+							<select class="custom-select custom-select-sm my-1" name="issue" id="issue" form="contact-form"><!-- Select Dropdown -->
+								<option selected>
+									Reason for contact
+								</option>
+								<option value="account">
+									Account Issue
+								</option>
+								<option value="payment">
+									Payment
+								</option>
+								<option value="community">
+									Community issues
+								</option>
+								<option value="feedback">
+									Feedback
+								</option>
+								<option value="media">
+									Media/Business
+								</option>
+								<option value="other">
+									Other
+								</option>
+							</select>
+							
+							<div class="input-group input-group-sm my-1"><!-- Text field -->
+								<textarea name="contact-description" form="contact-form" aria-label="textarea" class="form-control form-control-lg" placeholder="Your message here :c)" required></textarea>
+							</div>							
 						</div>
 						<div class="modal-footer">
 							<button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button> <button class="btn btn-success" type="submit">Send</button>
@@ -991,7 +991,7 @@
 					</form>
 				</div>
 			</div>
-		</div><!-- Contact Modal -->
+		</div>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script crossorigin="anonymous" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
