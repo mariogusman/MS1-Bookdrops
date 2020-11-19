@@ -28,7 +28,7 @@
 
 # Milestone Project 1 - Bookdrops
 [Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
-![](project-files\responsive.png)
+![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/responsive.png)
 
 
 ### Table Of Contents
@@ -70,7 +70,7 @@
         - For this project, the color palette was created with the help of [Coolors](https://coolors.co/885db1-c4a6e2-1f1f1f-ffffff-f5f5f5).
         - I specifically aimed for shades of Purple as the main colors due it being frequently associated with knowledge, imagination and wisdom, which are desired attributes for this brand.
         - White, whitesmoke and Eerie black were used to improve the readability of the page - these are also very common colors among tech projects.<br>
-        <br>![](project-files\coolors.jpg)
+        <br>![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/coolors.jpg)
 
     -   #### Typography
         - To make the logo, instead of using an Image as usual, I opted for an actual font - this would make resizing and working with the logo in general much easier.
