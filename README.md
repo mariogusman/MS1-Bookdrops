@@ -85,58 +85,35 @@
         
             > "Icons can be a great way to bring essential content to the point. They are a great attention grabber and they help your website visitors to find and scan content."
 
-   ### Wireframes
-   ![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/wireframe%20new.png)
+    -   #### Wireframes
+        -   The website wireframe was created using Balsamiq.
+        -   Its can be seen by clicking here [clicking here](https://github.com/mariogusman/MS1-Bookdrops/blob/main/project-files/wireframe%20new.png).
 
-## Features
-- Burger nav bar
-- Drop down menu using bootstrap library and Popper.js library
-- Responsive on all device sizes
-- Interactive elements
-- Hover.css
 ## Technologies Used
 Brief overview of the languages, frameworks, and other tools I've used on this project:
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-    - Semantic markup language as the shell of the site.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-    - Cascading Style Sheets as the design of the site.
-- [CSS Grid](https://en.wikipedia.org/wiki/CSS_grid_layout)
-    - Grid allows for a responsive layout across various platforms.
-- [JavaScript](https://www.javascript.com)
-   - Used for open/close effect on mobile navbar, as well as the fancybox implementation.
 - [Font Awesome 5](https://fontawesome.com)
-   - Use of social media icons.
-## Languages Used
+### Languages Used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-## Frameworks, Libraries and Programs Used
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-8. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-9. [Popper.js:](https://popper.js.org/)
-    - Popper was used to create the Dropdown menu in the navbar.
+### Frameworks, Libraries and Programs Used
+1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+2. [Hover.css](https://ianlunn.github.io/Hover/)
+3. [Google Fonts](https://fonts.google.com/)
+4. [Font Awesome](https://fontawesome.com/)
+7. [GitHub](https://github.com/)
+8. [Balsamiq](https://balsamiq.com/)
+9. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+10. [DirtyMarkup Code Beautifier](https://www.10bestdesign.com/dirtymarkup/)
+
 ## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]
-### Testing User Stories
--   #### First Time Visitor Goals
--   #### Returning Visitor Goals
--   #### Frequent User Goals
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+-   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Further Testing
+- Testing was also made using 
 ### Known Bugs
 ## Deployment
 ### GitHub Pages
