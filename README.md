@@ -1,38 +1,19 @@
 # Milestone Project 1 - Bookdrops
-[Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
 ![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/responsive.png)
 
-Bookdrops is my Milestone 1 project for the Code Institute Full-Stack Developer Bootcamp.
+Bookdrops is my Milestone 1 project for the Code Institute Full-Stack Developer Bootcamp. <br>
 My Idea was to come up with an App/Business concept, and build an App Landing Page showcasing the app, its features and how to download it.
 
-### Table Of Contents
-    1. [User Experience (UX)](#user-experience)
-        - [User stories](#user-stories)
-        - [Design](#design)
-        - [Wireframes](#wireframes)
-    2. [Features](#features)
-    3. [Technologies Used](#technologies-used)
-    4. [Languages Used](#languages-used)
-    5. [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
-    6. [Testing](#testing)
-        - [Testing User Stories](#testing-user-stories)
-        - [Further Testing](#further-testing)
-        - [Known Bugs](#known-bugs)
-    7. [Deployment](#deployment)
-    8. [Credits](#credits)
-        - [Code](#code)
-        - [Content](#content)
-        - [Media](#media)
-        - [Acknowledgements](#acknowledgements)
+[Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
 
 ## Product Development
 To help me create something closer to reality, I went through the process of developing the idea behind this product, some of the details can be seen below.
 ## Concept
-Bookdrops tackles one of the emerging issues born with the coronavirus quarantine - people with spare time in their hands. 
+Bookdrops tackles one of the emerging issues born with the coronavirus quarantine - people with spare time in their hands. <br>
 We see this is a unique opportunity to take on a new hobby, learn something new or dive deeper into something. Good books are key to that.
 
-We offer a subscription program that delivers books to the user’s address every month. The selection is based on the user’s interests – be it fictional such as romances or non-fictional such as history or self-help books. 
-Recommendations take into consideration best-sellers, community reviews and even books read and  liked by the user. 
+We offer a subscription program that delivers books to the user’s address every month. The selection is based on the user’s interests – be it fictional such as romances or non-fictional such as history or self-help books. <br>
+Recommendations take into consideration best-sellers, community reviews and even books read and  liked by the user. <br>
 There is also an important social aspect to Bookdrops – each user has their own bookshelf – public or private, users can post and read reviews, join discussion groups, follow other users, earn badges and become a specialist in each topic. 
 
 ## Sinek's Golden Circle
@@ -107,22 +88,28 @@ There is also an important social aspect to Bookdrops – each user has their ow
 
     > "Icons can be a great way to bring essential content to the point. They are a great attention grabber and they help your website visitors to find and scan content."
 
--   #### Wireframes
+### Wireframes
 -   The website wireframe was created using Balsamiq.
 -   Its can be seen by clicking here [clicking here](https://github.com/mariogusman/MS1-Bookdrops/blob/main/project-files/wireframe%20new.png).
 
 ### Languages Used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-### Frameworks, Libraries and Programs Used
-1.  [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-2.  [Hover.css](https://ianlunn.github.io/Hover/)
-3.  [Google Fonts](https://fonts.google.com/)
-4.  [Font Awesome](https://fontawesome.com/)
-7.  [GitHub](https://github.com/)
-8.  [Balsamiq](https://balsamiq.com/)
-9.  [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
-10. [DirtyMarkup Code Beautifier](https://www.10bestdesign.com/dirtymarkup/)
+### Frameworks, Libraries and Other Programs Used
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+- [Hover.css](https://ianlunn.github.io/Hover/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [GitHub](https://github.com/)
+- [Balsamiq](https://balsamiq.com/)
+- [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+- [DirtyMarkup Code Beautifier](https://www.10bestdesign.com/dirtymarkup/)
+- [Favicon.io](https://favicon.io/)
+- [Autoprefixer](https://autoprefixer.github.io/)
+- [Coolors](https://coolors.co/885db1-c4a6e2-1f1f1f-ffffff-f5f5f5)
+- [Flaticon](https://www.flaticon.local)
+- [Canva](https://www.canva.com)
+
 
 ## Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
@@ -132,10 +119,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 ### Further Testing
 - Testing was also made using Google Chrome, including the mobile and responsive views.
 - Various Android and iOS devices were used to test the mobile version.
-- Forms were tested and by posting data to Code Institute's formdump.
+- Forms were tested by posting data to Code Institute's formdump.
 
 ## Deployment
-### GitHub Pages
+This project is hosted by GitHub Pages.
 ### Code
 - Some parts of the code were imported from public sources such as Bootstrap Documentation page, w3Schools or StackOverflow.
 - These be identified by looking at the comments in the code.
@@ -143,7 +130,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 -   Book covers extracted from [Amazon's](https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239) website.
 -   Terms of Service Template from [Terms of Service Generator](www.termsofservicegenerator.net/)
 -   Purple Blob background - [Canva](https://www.canva.com)
-- App mockup icons by [Flaticon](https://www.flaticon.local)
+- App mockup icons and Feature section Icons by [Flaticon](https://www.flaticon.local)
+
 ### Acknowledgements
--   My Mentor for continuous helpful feedback.
--   Tutor support at Code Institute for their support.
+-   My Mentor for pointing me to the right direction.
+-   CI Slack members for reviewing this and giving feedback.
