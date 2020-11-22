@@ -113,11 +113,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Further Testing
-- Testing was also made using 
-### Known Bugs
+- Testing was also made using Google Chrome, including the mobile and responsive views.
+- Various Android and iOS devices were used to test the mobile version.
+- Forms were tested and by posting data to Code Institute's formdump.
+
 ## Deployment
 ### GitHub Pages
-### Forking the GitHub Repository
 ## Credits
 - Font border for the H1 heading (https://stackoverflow.com/questions/2570972/css-font-border)
 - Hover.css for interactive effects (https://ianlunn.github.io/)
@@ -128,7 +129,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 -   Color Scheme was choosen from https://coolors.co/
 ### Content
 ### Media
--   Images were taken from free images source websites https://unsplash.com/ and https://pixabay.com
+-   Book covers extracted from [Amazon's](https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239) website
 ### Acknowledgements
 -   My Mentor for continuous helpful feedback.
 -   Tutor support at Code Institute for their support.
