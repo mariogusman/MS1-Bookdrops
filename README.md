@@ -53,17 +53,13 @@ There is also an important social aspect to Bookdrops – each user has their ow
 #### First Time Visitor Goals
 
 > It is my first time here, I want to know more about this company and what they're all about. 
-<br>
 
 > I read about them somewhere, but I still have some questions about how it all works.
-<br>
 
 > I'm interested in their product, want to join, and came here to subscribe and download the App. 
-<br>
 
 -   #### Returning Visitor Goals
 > Last time I came here to know more about them, but now I am ready to Download and Subscribe.
-<br>
 
 > I had an issue with this service and came here to check the FAQ and contact for help. 
 
