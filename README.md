@@ -1,57 +1,71 @@
-# MS1-Bookdrops
- Readme To-do
-
-
-
- ### Resources
-- Clay iPhone Mockups - Free resource from invisionapp.com
-- https://www.invisionapp.com/inside-design/design-resources/clay-device-mockup-kit/
-
-- Hover.css - A hover effects library.
-- https://github.com/IanLunn/Hover
-
-- Bootstrap 4 - CSS Framework
-- https://getbootstrap.com/
-
-- Canva - Online Image Editing
-- https://www.canva.com
-
-- App mockup icons by Flaticon
-- https://www.flaticon.local
-
-- Book covers from Amazon
-- https://www.amazon.com/
-
-- Terms of Service Template from Terms of Service Generator 
-- on www.termsofservicegenerator.net/
-
-
 # Milestone Project 1 - Bookdrops
 [Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
 ![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/responsive.png)
 
+Bookdrops is my Milestone 1 project for the Code Institute Full-Stack Developer Bootcamp.
+My Idea was to come up with an App/Business concept, and build an App Landing Page showcasing the app, its features and how to download it.
 
 ### Table Of Contents
-1. [User Experience (UX)](#user-experience)
-    - [User stories](#user-stories)
-    - [Design](#design)
-    - [Wireframes](#wireframes)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Languages Used](#languages-used)
-5. [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
-6. [Testing](#testing)
-    - [Testing User Stories](#testing-user-stories)
-    - [Further Testing](#further-testing)
-    - [Known Bugs](#known-bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
-    - [Code](#code)
-    - [Content](#content)
-    - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+    1. [User Experience (UX)](#user-experience)
+        - [User stories](#user-stories)
+        - [Design](#design)
+        - [Wireframes](#wireframes)
+    2. [Features](#features)
+    3. [Technologies Used](#technologies-used)
+    4. [Languages Used](#languages-used)
+    5. [Frameworks, Libraries & Programs Used](#frameworks-libraries-and-programs-used)
+    6. [Testing](#testing)
+        - [Testing User Stories](#testing-user-stories)
+        - [Further Testing](#further-testing)
+        - [Known Bugs](#known-bugs)
+    7. [Deployment](#deployment)
+    8. [Credits](#credits)
+        - [Code](#code)
+        - [Content](#content)
+        - [Media](#media)
+        - [Acknowledgements](#acknowledgements)
+
+## Product Development
+To help me create something closer to reality, I went through the process of developing the idea behind this product, some of the details can be seen below.
+### Concept
+Bookdrops tackles one of the emerging issues born with the coronavirus quarantine - people with spare time in their hands. 
+We see this is a unique opportunity to take on a new hobby, learn something new or dive deeper into something. Good books are key to that.
+
+We offer a subscription program that delivers books to the user’s address every month. The selection is based on the user’s interests – be it fictional such as romances or non-fictional such as history or self-help books. 
+Recommendations take into consideration best-sellers, community reviews and even books read and  liked by the user. 
+There is also an important social aspect to Bookdrops – each user has their own bookshelf – public or private, users can post and read reviews, join discussion groups, follow other users, earn badges and become a specialist in each topic. 
+
+### Sinek's Golden Circle
+
+- Why – What is our cause, purpose or belief:
+    - We want to expand your horizon, teach you new things, and inspire you into inspiring others. Help you access your untapped potential.
+- How – The steps to make the Why a reality:
+    - By bringing the library to the palm of your hand. Reading is the gateway to future better self.
+
+- What – What we do, what is our product:
+    - We connect our customers to the best books on any given topic. We give them the ultimate incentive to read them, by sending these very books to their address and creating interest and engagement through social interactions.
 
 ## User Experience
+### Goals
+#### Website goals:
+- App downloads and subscriptions
+- Brand awareness
+- Lead Generation through a newsletter
+- Social network followers and engagement
+#### Users Goals
+- Knowing more about the App
+- FAQ
+- How to Subscribe or Download
+
+### Website features:
+- Download links to Android and iOS
+- App features
+- Screenshots of various app screens
+- FAQ 
+- Subscription form
+- Contact form
+- Fully responsive
+
 -   ### User stories
     -   #### First Time Visitor Goals
         > It is my first time here, I want to know more about this company and what they're all about. 
@@ -90,46 +104,48 @@
         -   Its can be seen by clicking here [clicking here](https://github.com/mariogusman/MS1-Bookdrops/blob/main/project-files/wireframe%20new.png).
 
 ## Technologies Used
-Brief overview of the languages, frameworks, and other tools I've used on this project:
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [Font Awesome 5](https://fontawesome.com)
+    Brief overview of the languages, frameworks, and other tools I've used on this project:
+    - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - [Font Awesome 5](https://fontawesome.com)
 ### Languages Used
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 ### Frameworks, Libraries and Programs Used
-1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-2. [Hover.css](https://ianlunn.github.io/Hover/)
-3. [Google Fonts](https://fonts.google.com/)
-4. [Font Awesome](https://fontawesome.com/)
-7. [GitHub](https://github.com/)
-8. [Balsamiq](https://balsamiq.com/)
-9. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
-10. [DirtyMarkup Code Beautifier](https://www.10bestdesign.com/dirtymarkup/)
-
+    1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    2. [Hover.css](https://ianlunn.github.io/Hover/)
+    3. [Google Fonts](https://fonts.google.com/)
+    4. [Font Awesome](https://fontawesome.com/)
+    7. [GitHub](https://github.com/)
+    8. [Balsamiq](https://balsamiq.com/)
+    9. [Photoshop](https://www.adobe.com/ie/products/photoshop.html)
+    10. [DirtyMarkup Code Beautifier](https://www.10bestdesign.com/dirtymarkup/)
 ## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
--   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F) 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
+    -   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F) 
+    -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Further Testing
-- Testing was also made using Google Chrome, including the mobile and responsive views.
-- Various Android and iOS devices were used to test the mobile version.
-- Forms were tested and by posting data to Code Institute's formdump.
+    ### Further Testing
+    - Testing was also made using Google Chrome, including the mobile and responsive views.
+    - Various Android and iOS devices were used to test the mobile version.
+    - Forms were tested and by posting data to Code Institute's formdump.
 
 ## Deployment
 ### GitHub Pages
 ## Credits
-- Font border for the H1 heading (https://stackoverflow.com/questions/2570972/css-font-border)
-- Hover.css for interactive effects (https://ianlunn.github.io/)
-- Instagram Gradient Hover (https://stackoverflow.com/questions/38507734/fontawesome-instagram-icon-colorized/49659118#49659118)
+    - Font border for the H1 heading (https://stackoverflow.com/questions/2570972/css-font-border)
+    - Hover.css for interactive effects (https://ianlunn.github.io/)
+    - Instagram Gradient Hover (https://stackoverflow.com/questions/38507734/fontawesome-instagram-icon-colorized/49659118#49659118)
 ### Code
--   The full-screen hero image code came from https://unsplash.com/
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
--   Color Scheme was choosen from https://coolors.co/
+    -   The full-screen hero image code came from https://unsplash.com/
+    -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+    -   Color Scheme was choosen from https://coolors.co/
 ### Content
 ### Media
--   Book covers extracted from [Amazon's](https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239) website
+    -   Book covers extracted from [Amazon's](https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239) website.
+    -   Terms of Service Template from [Terms of Service Generator](www.termsofservicegenerator.net/)
+    -   Purple Blob background - [Canva](https://www.canva.com)
+    - App mockup icons by [Flaticon](https://www.flaticon.local)
 ### Acknowledgements
--   My Mentor for continuous helpful feedback.
--   Tutor support at Code Institute for their support.
+    -   My Mentor for continuous helpful feedback.
+    -   Tutor support at Code Institute for their support.
