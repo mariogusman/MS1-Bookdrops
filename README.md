@@ -58,7 +58,7 @@ There is also an important social aspect to Bookdrops – each user has their ow
 
 > I'm interested in their product, want to join, and came here to subscribe and download the App. 
 
--   #### Returning Visitor Goals
+#### Returning Visitor Goals
 > Last time I came here to know more about them, but now I am ready to Download and Subscribe.
 
 > I had an issue with this service and came here to check the FAQ and contact for help. 
