@@ -175,6 +175,11 @@ a:hover {
 }
 /*-end of import-*/
 
+/* Cursor pointer - mentioned by mentor Ignatius, found how to do on https://stackoverflow.com/a/3088012 */
+.pointer {
+	cursor: pointer;
+}
+
 /* :::::::::::::::::::::::::::::::::::::::::: Footer */
 
 footer {
