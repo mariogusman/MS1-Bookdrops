@@ -16,7 +16,7 @@ We offer a subscription program that delivers books to the user’s address ever
 Recommendations take into consideration best-sellers, community reviews and even books read and  liked by the user. <br>
 There is also an important social aspect to Bookdrops – each user has their own bookshelf – public or private, users can post and read reviews, join discussion groups, follow other users, earn badges and become a specialist in each topic. 
 
-## Sinek's Golden Circle
+## Why, How and What
 
 - Why – What is our cause, purpose or belief:
     - We want to expand your horizon, teach you new things, and inspire you into inspiring others. Help you access your untapped potential.
@@ -86,7 +86,7 @@ There is also an important social aspect to Bookdrops – each user has their ow
 
 ### Wireframes
 -   The website wireframe was created using Balsamiq.
--   Its can be seen by clicking here [clicking here](https://github.com/mariogusman/MS1-Bookdrops/blob/main/project-files/wireframe%20new.png).
+-   Its can be seen by [clicking here](https://github.com/mariogusman/MS1-Bookdrops/blob/main/project-files/wireframe%20new.png).
 
 ### Languages Used
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -108,26 +108,44 @@ There is also an important social aspect to Bookdrops – each user has their ow
 
 
 ## Testing
+- Testing was mainly made using Google Chrome Developer Tools, including the mobile and responsive views.
+- This website was also tested on Firefox, and Microsoft Edge.
+- Actual Android and iOS devices were used to test the mobile version of the website.
+- Forms were tested by posting data to Code Institute's formdump.
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 -   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F) 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmariogusman.github.io%2FMS1-Bookdrops%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-### Further Testing
-- Testing was also made using Google Chrome, including the mobile and responsive views.
-- Various Android and iOS devices were used to test the mobile version.
-- Forms were tested by posting data to Code Institute's formdump.
 
 ## Deployment
-This project is hosted by GitHub Pages.
-### Code
-- Some parts of the code were imported from public sources such as Bootstrap Documentation page, w3Schools or StackOverflow.
-- These be identified by looking at the comments in the code.
-### Media
+This website was deployed using GitHub Pages. [Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/).
+
+GitHub Pages is a free hosting service provided by GitHub by following the steps below:
+- Go to the repository page > Click Settings > go to the "GitHub Pages" section >  Select the Source > Click Save.
+
+### Cloning
+To clone this project follow the instructions below, adapted from GitHub's Documentation:
+- On GitHub, navigate to the main page of the repository or [Click Here](https://github.com/mariogusman/MS1-Bookdrops)
+- Above the list of files, click on "Code".
+    - To clone the repository using HTTPS, under "Clone with HTTPS", click the copy icon. 
+    - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy icon. 
+    - To clone a repository using GitHub CLI, click Use GitHub CLI, then click the copy icon.
+
+- Open Git Bash.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+> $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+- Press Enter to create your local clone.
+
+
+## Acknowledgements
+-   My Mentor, Ignatius, for pointing me to the right direction.
+-   CI Slack members for reviewing this and giving feedback.
+
+- Some parts of the code were imported from public sources such as Bootstrap Documentation page, w3Schools or StackOverflow. These can be identified by looking at the comments in the code.
+
 -   Book covers extracted from [Amazon's](https://www.amazon.co.uk/books-used-books-textbooks/b?ie=UTF8&node=266239) website.
 -   Terms of Service Template from [Terms of Service Generator](www.termsofservicegenerator.net/)
 -   Purple Blob background - [Canva](https://www.canva.com)
-- App mockup icons and Feature section Icons by [Flaticon](https://www.flaticon.local)
-
-### Acknowledgements
--   My Mentor for pointing me to the right direction.
--   CI Slack members for reviewing this and giving feedback.
+-   App mockup icons and Feature section Icons by [Flaticon](https://www.flaticon.local)
