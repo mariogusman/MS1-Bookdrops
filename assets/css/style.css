@@ -206,7 +206,8 @@ footer {
 .btn-newsletter {
 	height: 29px;
 	margin-top: 1px;
-	border-radius: 10px;
+	border-radius: 0 10px 10px 0px;
+
 }
 
 
@@ -250,6 +251,7 @@ footer {
 	body {
 		text-align: center;
 	}
+		
 	nav {
 		background-color: white !important;
 		margin-top: 0px;
