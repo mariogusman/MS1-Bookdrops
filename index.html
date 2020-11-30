@@ -726,14 +726,15 @@
 							Reading Digest:
 						</p>
 
-						<div class="input-group mb-3 mx-5">
-							<input aria-label="Newsletter Email" class="form-control form-control-sm" 
-							placeholder="Your Best Email" type="text">
-
-							<div class="input-group-append">
-								<button class="btn btn-dark btn-sm btn-newsletter" type="button">Join</button>
-							</div>
-
+						<div class="input-group mb-3 justify-content-center">
+							<form action="https://formdump.codeinstitute.net/" id="newsletter-form" 
+							method="post" name="newsletter-form">
+								<div class="input-group-append">
+								<input aria-label="email" class="form-control form-control-sm" id="newsletter-email" 
+									name="newsletter-email" placeholder="Your Email" required type="email">
+									<button class="btn btn-dark btn-sm btn-newsletter" type="submit">Join</button>
+								</div>
+							</form>
 						</div>
 
 					</div>
