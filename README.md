@@ -1,13 +1,12 @@
-# Milestone Project 1 - Bookdrops
+Bookdrops
 ![](https://raw.githubusercontent.com/mariogusman/MS1-Bookdrops/main/project-files/responsive.png)
 
-Bookdrops is my Milestone 1 project for the Code Institute Full-Stack Developer Bootcamp. <br>
 My Idea was to come up with an App/Business concept, and build an App Landing Page showcasing the app, its features and how to download it.
 
 [Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
 
 ## Product Development
-To help me create something closer to reality, I went through the process of developing the idea behind this product, some of the details can be seen below.
+To help me create something that looked real, I went through the process of developing the idea behind this product, some of the details can be seen below.
 ## Concept
 Bookdrops tackles one of the emerging issues born with the coronavirus quarantine - people with spare time in their hands. <br>
 We see this is a unique opportunity to take on a new hobby, learn something new or dive deeper into something. Good books are key to that.
