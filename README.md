@@ -3,7 +3,7 @@ Bookdrops
 
 My Idea was to come up with an App/Business concept, and build an App Landing Page showcasing the app, its features and how to download it.
 
-[Click here to view the live project 🌐](https://mariogusman.github.io/MS1-Bookdrops/) <br>
+[Click here to view the live project 🌐](https://mariogusman.github.io/bookdrops/) <br>
 
 ## Product Development
 To help me create something that looked real, I went through the process of developing the idea behind this product, some of the details can be seen below.
